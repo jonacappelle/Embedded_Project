@@ -9,25 +9,30 @@
 
 ---
 
-## Table of Contents (Optional)
+## Table of Contents
 
-
-
--[Code](#Embedded_1_AMG8833_Temp_Sensor)
-
+- [Code](Embedded_1_AMG8833_Temp_Sensor)
+  * [src](Embedded_1_AMG8833_Temp_Sensor/src)
+  * [AMG8833](Embedded_1_AMG8833_Temp_Sensor/AMG8833)
+  * [Datasheet](ADI8000C66.pdf)
+  * [Datasheet (advanced)](Grid-EYE_SPECIFICATIONS(Reference).pdf)
 
 ---
 
 ## Installation
 
 - All the `code` required to get started
-- Images of what it should look like
+
 
 ## Clone
 
 - Clone this repo to your local machine using `git clone https://github.com/jonacappelle/Embedded_Project`
 
+## Sensor
 
+<p align="center">
+  <img width="200" src="https://github.com/jonacappelle/Embedded_Project/amg8833.jpg">
+</p>
 
 ## Team
 
