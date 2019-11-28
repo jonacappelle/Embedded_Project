@@ -1,8 +1,7 @@
 # Embedded Systems 1 Lab
 
-> Embedded Programming
+> Embedded Programming of the AMG8833 IR Thermal Camera on the EFM32HG
 
-![License](https://img.shields.io/badge/license-GNU%20GPL%20v3.0-blue.svg)
 ![Target device](https://img.shields.io/badge/target%20device-EFM32HG322F64G-yellow.svg)
 
 
