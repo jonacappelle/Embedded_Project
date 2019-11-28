@@ -31,7 +31,7 @@
 ## Sensor
 
 <p align="center">
-  <img width="400" src="https://github.com/jonacappelle/Embedded_Project/blob/master/amg8833.jpg">
+  <img width="400" src="https://github.com/jonacappelle/Embedded_Project/blob/master/Documentation/amg8833.jpg">
 </p>
 
 ## Team
