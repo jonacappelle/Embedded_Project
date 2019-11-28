@@ -14,8 +14,8 @@
 - [Code](Embedded_1_AMG8833_Temp_Sensor)
   * [src](Embedded_1_AMG8833_Temp_Sensor/src)
   * [AMG8833](Embedded_1_AMG8833_Temp_Sensor/AMG8833)
-  * [Datasheet](ADI8000C66.pdf)
-  * [Datasheet (advanced)](Grid-EYE_SPECIFICATIONS(Reference).pdf)
+  * [Datasheet](Documentation/ADI8000C66.pdf)
+  * [Datasheet (advanced)](Documentation/Grid-EYE_SPECIFICATIONS(Reference).pdf)
 
 ---
 
