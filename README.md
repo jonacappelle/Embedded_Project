@@ -9,11 +9,11 @@
 
 ---
 
-## Table of Contents (Optional)
+## Table of Contents
 
-
-
--[Code](#Embedded_1_AMG8833_Temp_Sensor)
+- [Code](Embedded_1_AMG8833_Temp_Sensor)
+  * [src](Embedded_1_AMG8833_Temp_Sensor/src)
+  * [AMG8833](Embedded_1_AMG8833_Temp_Sensor/AMG8833)
 
 
 ---
@@ -21,7 +21,7 @@
 ## Installation
 
 - All the `code` required to get started
-- Images of what it should look like
+
 
 ## Clone
 
