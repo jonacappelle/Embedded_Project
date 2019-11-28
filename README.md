@@ -14,8 +14,8 @@
 - [Code](Embedded_1_AMG8833_Temp_Sensor)
   * [src](Embedded_1_AMG8833_Temp_Sensor/src)
   * [AMG8833](Embedded_1_AMG8833_Temp_Sensor/AMG8833)
-  * [Datasheet](ADI8000C66.pdf)
-  * [Datasheet (advanced)](Grid-EYE_SPECIFICATIONS(Reference).pdf)
+  * [Datasheet](Documentation/ADI8000C66.pdf)
+  * [Datasheet (advanced)](Documentation/Grid-EYE_SPECIFICATIONS(Reference).pdf)
 
 ---
 
@@ -31,7 +31,7 @@
 ## Sensor
 
 <p align="center">
-  <img width="200" src="https://github.com/jonacappelle/Embedded_Project/amg8833.jpg">
+  <img width="400" src="https://github.com/jonacappelle/Embedded_Project/blob/master/amg8833.jpg">
 </p>
 
 ## Team
