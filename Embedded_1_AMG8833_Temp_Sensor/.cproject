@@ -169,17 +169,17 @@
 	</storageModule>
 	<storageModule moduleId="com.silabs.ss.framework.ide.project.core.cpp" projectCommon.boardIds="brd2012a:0.0.0.B01" projectCommon.buildArtifactType="EXE" projectCommon.importModeId="LINK_LIBRARIES" projectCommon.partId="mcu.arm.efm32.hg.efm32hg322f64" projectCommon.sdkId="com.silabs.sdk.stack.super:2.6.3._-244747578"/>
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-		<project id="Embedded_1_AMG8833_Temp_Sensor.com.silabs.ss.framework.ide.project.core.cdt.cdtMbsProjectType.490213267" name="SLS CDT Project" projectType="com.silabs.ss.framework.ide.project.core.cdt.cdtMbsProjectType"/>
+		<project id="Embedded_1.com.silabs.ss.framework.ide.project.core.cdt.cdtMbsProjectType.51946219" name="SLS CDT Project" projectType="com.silabs.ss.framework.ide.project.core.cdt.cdtMbsProjectType"/>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		<scannerConfigBuildInfo instanceId="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.debug#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904;com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.debug#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904.;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base.71759060;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input.1674174697">
+		<scannerConfigBuildInfo instanceId="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.debug#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904;com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.debug#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904.;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base.417457785;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input.1139514736">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.release#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904;com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.release#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904.;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base.1100418817;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input.767272920">
+		<scannerConfigBuildInfo instanceId="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.release#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904;com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.release#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904.;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base.1098294861;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input.1512451729">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
 	</storageModule>
-	<storageModule moduleId="refreshScope"/>
 </cproject>

@@ -31,12 +31,26 @@
 
 #include "I2C.h"
 
-
+#define I2C_PORT_LOCATION	1
 
 I2CSPM_Init_TypeDef i2cInit = I2CSPM_INIT_DEFAULT;
 
 
 void IIC_Init(void){
+
+	/* We use the standard I2C pins and ports, so no need to adjust */
+	/*
+	i2cInit.port = I2C0;
+	i2cInit.sclPort = gpioPortD;
+	i2cInit.sclPin = 7;
+	i2cInit.sdaPort = gpioPortD;
+	i2cInit.sdaPin = 6;
+	i2cInit.i2cClhr = i2cClockHLRStandard;
+	i2cInit.i2cRefFreq = 0 ;
+	i2cInit.i2cMaxFreq = I2C_FREQ_STANDARD_MAX;
+	i2cInit.portLocation = I2C_PORT_LOCATION; //zie datasheet �controller (hashtag getal in pinout)
+*/
+
 	I2CSPM_Init(&i2cInit);
 }
 
