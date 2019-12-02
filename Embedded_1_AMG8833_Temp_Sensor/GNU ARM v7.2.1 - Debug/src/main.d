@@ -44,22 +44,24 @@ src/main.o: ../src/main.c \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\efm32hg_dmactrl.h \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\efm32hg_af_ports.h \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\efm32hg_af_pins.h \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_chip.h \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_system.h \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_gpio.h \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_bus.h \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_assert.h \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_cmu.h \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_common.h \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_i2c.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_chip.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_system.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_gpio.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_bus.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_assert.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_cmu.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_common.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_i2c.h \
  E:\GOOGLE_DRIVE\SCHOOL\ 2019-2020\embedded\ 1\Embedded_1\AMG8833/I2C.h \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_gpio.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_gpio.h \
  E:\GOOGLE_DRIVE\SCHOOL\ 2019-2020\embedded\ 1\Embedded_1\AMG8833/AMG8833.h \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_emu.h \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_rtc.h \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_core.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_emu.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_rtc.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_core.h \
  E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\hardware\kit\common\drivers/i2cspm.h \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\hardware\kit\slstk3400a_efm32hg\config\i2cspmconfig.h
+ e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\hardware\kit\slstk3400a_efm32hg\config\i2cspmconfig.h \
+ E:\GOOGLE_DRIVE\SCHOOL\ 2019-2020\embedded\ 1\Embedded_1\dbprint/debug_dbprint.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_usart.h
 
 e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\em_device.h:
 
@@ -151,34 +153,38 @@ e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\
 
 e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\efm32hg_af_pins.h:
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_chip.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_chip.h:
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_system.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_system.h:
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_gpio.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_gpio.h:
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_bus.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_bus.h:
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_assert.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_assert.h:
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_cmu.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_cmu.h:
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_common.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_common.h:
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_i2c.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_i2c.h:
 
 E:\GOOGLE_DRIVE\SCHOOL\ 2019-2020\embedded\ 1\Embedded_1\AMG8833/I2C.h:
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_gpio.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_gpio.h:
 
 E:\GOOGLE_DRIVE\SCHOOL\ 2019-2020\embedded\ 1\Embedded_1\AMG8833/AMG8833.h:
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_emu.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_emu.h:
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_rtc.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_rtc.h:
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_core.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_core.h:
 
 E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\hardware\kit\common\drivers/i2cspm.h:
 
 e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\hardware\kit\slstk3400a_efm32hg\config\i2cspmconfig.h:
+
+E:\GOOGLE_DRIVE\SCHOOL\ 2019-2020\embedded\ 1\Embedded_1\dbprint/debug_dbprint.h:
+
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_usart.h:

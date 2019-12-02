@@ -1,7 +1,7 @@
 AMG8833/I2C.o: ../AMG8833/I2C.c \
  E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\hardware\kit\common\drivers/i2cspm.h \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\hardware\kit\slstk3400a_efm32hg\config\i2cspmconfig.h \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_gpio.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_gpio.h \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\em_device.h \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\efm32hg322f64.h \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\cmsis\include\arm_math.h \
@@ -47,16 +47,16 @@ AMG8833/I2C.o: ../AMG8833/I2C.c \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\efm32hg_dmactrl.h \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\efm32hg_af_ports.h \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\efm32hg_af_pins.h \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_bus.h \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_assert.h \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_i2c.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_bus.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_assert.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_i2c.h \
  ../AMG8833/I2C.h
 
 E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\hardware\kit\common\drivers/i2cspm.h:
 
 e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\hardware\kit\slstk3400a_efm32hg\config\i2cspmconfig.h:
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_gpio.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_gpio.h:
 
 e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\em_device.h:
 
@@ -148,10 +148,10 @@ e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\
 
 e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\efm32hg_af_pins.h:
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_bus.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_bus.h:
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_assert.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_assert.h:
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_i2c.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_i2c.h:
 
 ../AMG8833/I2C.h:

@@ -1,6 +1,6 @@
 emlib/em_cmu.o: \
  E:/Program\ Files/simplicitystudio/developer/sdks/gecko_sdk_suite/v2.6/platform/emlib/src/em_cmu.c \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_cmu.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_cmu.h \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\em_device.h \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\efm32hg322f64.h \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\cmsis\include\arm_math.h \
@@ -46,18 +46,18 @@ emlib/em_cmu.o: \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\efm32hg_dmactrl.h \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\efm32hg_af_ports.h \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\efm32hg_af_pins.h \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_assert.h \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_bus.h \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_gpio.h \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_common.h \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_assert.h \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_bus.h \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_common.h \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_emu.h \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_gpio.h \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_system.h
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_assert.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_bus.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_gpio.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_common.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_assert.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_bus.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_common.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_emu.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_gpio.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_system.h
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_cmu.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_cmu.h:
 
 e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\em_device.h:
 
@@ -149,22 +149,22 @@ e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\
 
 e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\efm32hg_af_pins.h:
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_assert.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_assert.h:
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_bus.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_bus.h:
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_gpio.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_gpio.h:
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_common.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_common.h:
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_assert.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_assert.h:
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_bus.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_bus.h:
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_common.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_common.h:
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_emu.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_emu.h:
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_gpio.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_gpio.h:
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_system.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_system.h:

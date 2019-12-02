@@ -46,6 +46,11 @@
 			<locationURI>STUDIO_SDK_LOC/platform/emlib/src/em_system.c</locationURI>
 		</link>
 		<link>
+			<name>emlib/em_usart.c</name>
+			<type>1</type>
+			<location>E:/Program Files/simplicitystudio/developer/sdks/gecko_sdk_suite/v2.6/platform/emlib/src/em_usart.c</location>
+		</link>
+		<link>
 			<name>emlib/i2cspm.c</name>
 			<type>1</type>
 			<location>E:/Program Files/simplicitystudio/developer/sdks/gecko_sdk_suite/v2.6/hardware/kit/common/drivers/i2cspm.c</location>

@@ -1,6 +1,5 @@
-emlib/em_i2c.o: \
- E:/Program\ Files/simplicitystudio/developer/sdks/gecko_sdk_suite/v2.6/platform/emlib/src/em_i2c.c \
- E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_i2c.h \
+emlib/rtcdriver.o: \
+ E:/Program\ Files/simplicitystudio/developer/sdks/gecko_sdk_suite/v2.6/platform/emdrv/rtcdrv/src/rtcdriver.c \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\em_device.h \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\efm32hg322f64.h \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\cmsis\include\arm_math.h \
@@ -51,10 +50,12 @@ emlib/em_i2c.o: \
  E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_bus.h \
  E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_gpio.h \
  E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_common.h \
- E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_bus.h \
- E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_assert.h
-
-E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_i2c.h:
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_common.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_core.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_rtc.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emdrv\rtcdrv\inc/rtcdriver.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emdrv\common\inc/ecode.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\app\mcu_example\SLWSTK6244A_EZR32HG\ezradio_pn9\config/rtcdrv_config.h
 
 e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\em_device.h:
 
@@ -156,6 +157,14 @@ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\
 
 E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_common.h:
 
-E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_bus.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_common.h:
 
-E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_assert.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_core.h:
+
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_rtc.h:
+
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emdrv\rtcdrv\inc/rtcdriver.h:
+
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emdrv\common\inc/ecode.h:
+
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\app\mcu_example\SLWSTK6244A_EZR32HG\ezradio_pn9\config/rtcdrv_config.h:

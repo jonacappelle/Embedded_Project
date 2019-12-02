@@ -6,7 +6,7 @@
  * @author Jona Cappelle
  * ****************************************************************************/
 
-
+/* Includes */
 #include "em_device.h"
 #include "em_chip.h"
 #include "em_cmu.h"
@@ -21,12 +21,37 @@
 #include "em_core.h"
 #include "i2cspm.h"
 
-#define I2C_ADDRESS                     ( 0x69 << 1 )
-#define I2C_RXBUFFER_SIZE               10
+/* dbprint include */
+#include "debug_dbprint.h"
+#include "em_usart.h"
 
-#define AMG8833_I2C_ADDRESS				0x69
-#define THERMISTOR_OUTPUT_VALUE_L		0x0E
-#define THERMISTOR_OUTPUT_VALUE_H		0x0F
+/* Delay */
+//#include "delay.h"
+
+volatile uint32_t msTickCount;       /* Counts 1ms time ticks */
+static volatile uint32_t msTicks; /* counts 1ms timeTicks */
+
+
+void SysTick_Handler(void)
+{
+	  msTicks++;       /* increment counter necessary in Delay()*/
+}
+
+void delay_init(void)
+{
+	  /* Setup SysTick Timer for 1 msec interrupts  */
+	  if (SysTick_Config(CMU_ClockFreqGet(cmuClock_CORE) / 1000)) {
+	    while (1) ;
+	  }
+}
+
+void delay(uint32_t dlyTicks)
+{
+	  uint32_t curTicks;
+
+	  curTicks = msTicks;
+	  while ((msTicks - curTicks) < dlyTicks) ;
+}
 
 int main(void)
 {
@@ -36,20 +61,46 @@ int main(void)
   /* Enable GPIO clocks */
   CMU_ClockEnable(cmuClock_GPIO, true);
   CMU_ClockEnable(cmuClock_HFPER, true); // Needed to use GPIO
+  CMU_ClockEnable(cmuClock_CORE, true);
 
   /* Start I2C */
   IIC_Init();
 
-  uint8_t command = THERMISTOR_OUTPUT_VALUE_L;
+  /* Start Delay */
+  delay_init();
 
-  uint8_t rBuffer[2];
-  uint8_t wBuffer[2];
+	/* Setup printing to virtual COM port */
+#if DEBUG_DBPRINT == 1 /* DEBUG_DBPRINT */
+	dbprint_INIT(USART1, 4, true, false);
+#endif /* DEBUG_DBPRINT */
 
-  wBuffer[0] = command;
-  wBuffer[1] = 0x01;
+  float rBuffer_Thermistor[1];
+  float rBuffer_Pixels[64];
+
+
+  AMG8833_Thermistor_Read(rBuffer_Thermistor);
+
+
+
 
   /* Infinite loop */
   while (1) {
-	  IIC_WriteReadBuffer(I2C_ADDRESS, wBuffer, 1, rBuffer, 2);
+
+	  //AMG8833_Pixels_Read(rBuffer_Pixels);
+
+	  //AMG8833_Pixel_Print(rBuffer_Pixels);
+
+	  AMG8833_Sleep(false);
+	  delay(500);
+
+	  AMG8833_StandBy(STBY_10);
+	  delay(500);
+
+	  AMG8833_StandBy(STBY_60);
+	  delay(500);
+
+	  AMG8833_Sleep(true);
+	  delay(500);
+
   }
 }

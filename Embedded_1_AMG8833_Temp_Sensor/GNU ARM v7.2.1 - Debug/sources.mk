@@ -18,6 +18,7 @@ C_DEPS :=
 SUBDIRS := \
 AMG8833 \
 CMSIS/EFM32HG \
+dbprint \
 emlib \
 src \
 

@@ -1,6 +1,6 @@
 emlib/em_system.o: \
  E:/Program\ Files/simplicitystudio/developer/sdks/gecko_sdk_suite/v2.6/platform/emlib/src/em_system.c \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_system.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_system.h \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\em_device.h \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\efm32hg322f64.h \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\cmsis\include\arm_math.h \
@@ -46,9 +46,9 @@ emlib/em_system.o: \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\efm32hg_dmactrl.h \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\efm32hg_af_ports.h \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\efm32hg_af_pins.h \
- e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_assert.h
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_assert.h
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_system.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_system.h:
 
 e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\em_device.h:
 
@@ -140,4 +140,4 @@ e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\
 
 e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\efm32hg_af_pins.h:
 
-e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc\em_assert.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_assert.h:
