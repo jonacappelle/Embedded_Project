@@ -1,4 +1,6 @@
 \documentclass[]{article}
+\usepackage[dutch]{babel}
+\usepackage{graphicx}
 %opening
 \title{}
 \author{Thomas Feys \and Jona Cappelle}
@@ -11,10 +13,51 @@
 
 
 \section{Inleiding}
+Ons doel is om de wachtrij in de rabotaria te monitoren. Dit zullen we doen aan de hand van een IR grid sensor (AMG8833). Aan de hand van de uitgelezen waarden zullen we in het tweede semester bepalen hoeveel mensen er in de wachtrij staan. Deze informatie zullen we vervolgens via een app of website verspreiden. 
 \section{Sensor}
-\section{I2C}
-\section{functionaliteiten}
-\section{Besluit}
+De sensor die we gebruiken om de wachtrij te monitoren is de AMG8833. Deze IR grid sensor heeft 8x8 pixels die de temperatuur weergeven. Volgens de datasheet kan a.d.h.v. de temperatuur een mens waargenomen worden vanop een afstand van 5 meter. De sensor kan gebruikt worden in 3 verschillende modes: normal, sleep en stand-by. In de normale mode heeft de sensor een verbruik van 4.5 mA. De stand-by mode heeft twee opties; de waardes kunnen geüpdatet worden om de 60 seconden of om de 10 seconden. In deze mode is er een verbruik van 0.8 mA. Als laatste is er de sleep mode deze verbruikt 0.2 mA. Een overzicht van alle modes en de commando's die verstuurd moeten worden om in deze modes te raken wordt weergegeven in figuur \ref{fig:operatingmodes}. Tijdens het testen van de sensor hebben we periodiek geswitched tussen de verschillende power modes. Het resultaat van deze test is te zien in figuur \ref{fig:powertest}. De sensor heeft ook een interrupt pin. Deze pin geneert een interrupt als een van de pixels over of onder een bepaalde waarde gaat. Deze waarde is instelbaar.	
+\begin{figure}[!ht]
+	\centering
+	\includegraphics{operatingmodes.png}
+	\caption{Overzicht operating modes}
+	\label{fig:operatingmodes}
+\end{figure}
+%todo figuur aanpassen naar screenshot powermodes
+\begin{figure}[!ht]
+	\centering
+	\includegraphics{operatingmodes.png}
+	\caption{Test van de verschillende powermodes}
+	\label{fig:powertest}
+\end{figure}
+\section{Systeem}
+\subsection{overzicht}
+De AMG8833 communiceert met de happy gecko via I2C. Naast de I2C communicatie is er ook een interrupt pin voorzien op de sensor. Deze pin genereert een interrupt als er een van de pixels een bepaalde, instelbare waarde overschrijdt. Een volledig overzicht van het systeem is te zien in figuur \ref{fig:systeem}.
+%todo figuur maken in draw.io van het volledige systeem
+\begin{figure}[!ht]
+	\centering
+	\includegraphics{operatingmodes.png}
+	\caption{Overzicht van het systeem}
+	\label{fig:systeem}
+\end{figure}
+\subsection{I2C}
+
+
+
+\section{Code}
+\subsection{Functionaliteiten}
+Om gemakkelijk met de sensor te werken werd er een library geschreven voor de AMG8833. Er werden verschillende methodes geschreven om vlot te kunnen omgaan met de sensor. Er werd een functie geschreven om alle pixels uit te lezen. Naast de pixels is er ook een thermistor aanwezig in de sensor, ook hiervoor werd een functie geschreven. Er werden ook verschillende functies geschreven om makkelijk tussen de verschillende powermodes te kunnen wisselen. Een volledig overzicht van deze library is te vinden in .....
+%todo doxy invoegen en ernaar refereren
+
+\subsection{Flow van de code}
+
+\section{Power consumptie}
+\subsection{Principe}
+
+\subsection{Metingen}
+
+
+\section{Besluit }
+
 
 
 \end{document}
