@@ -1,0 +1,45 @@
+\hypertarget{debug__dbprint_8h}{}\doxysection{Embedded\+\_\+1\+\_\+\+A\+M\+G8833\+\_\+\+Temp\+\_\+\+Sensor/dbprint/debug\+\_\+dbprint.h File Reference}
+\label{debug__dbprint_8h}\index{Embedded\_1\_AMG8833\_Temp\_Sensor/dbprint/debug\_dbprint.h@{Embedded\_1\_AMG8833\_Temp\_Sensor/dbprint/debug\_dbprint.h}}
+
+
+Enable or disable printing to U\+A\+RT with dbprint.  
+
+
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{debug__dbprint_8h_a4ef257e0f94ec070ab7a49a0431dfbec}{D\+E\+B\+U\+G\+\_\+\+D\+B\+P\+R\+I\+NT}}~0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Enable or disable printing to U\+A\+RT with dbprint. 
+
+{\bfseries{This header file should be called in every other file where there are U\+A\+RT dbprint debugging statements. Depending on the value of {\ttfamily D\+E\+B\+U\+G\+\_\+\+D\+B\+P\+R\+I\+NT}, U\+A\+RT statements are enabled or disabled.}} \begin{DoxyVersion}{Version}
+6.\+2 
+\end{DoxyVersion}
+\begin{DoxyAuthor}{Author}
+Brecht Van Eeckhoudt
+\end{DoxyAuthor}
+\DoxyHorRuler
+\hypertarget{debug__dbprint_8h_License}{}\doxysubsection{License}\label{debug__dbprint_8h_License}
+{\bfseries{Copyright (C) 2019 -\/ Brecht Van Eeckhoudt}}
+
+This program is free software\+: you can redistribute it and/or modify it under the terms of the {\bfseries{G\+NU General Public License}} as published by the Free Software Foundation, either {\bfseries{version 3}} of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but W\+I\+T\+H\+O\+UT A\+NY W\+A\+R\+R\+A\+N\+TY; without even the implied warranty of M\+E\+R\+C\+H\+A\+N\+T\+A\+B\+I\+L\+I\+TY or F\+I\+T\+N\+E\+SS F\+OR A P\+A\+R\+T\+I\+C\+U\+L\+AR P\+U\+R\+P\+O\+SE. See the G\+NU General Public License for more details.
+
+{\itshape A copy of the G\+NU General Public License can be found in the {\ttfamily L\+I\+C\+E\+N\+SE} file along with this source code.}
+
+~\newline
+ Some methods also use code obtained from examples from \href{https://github.com/SiliconLabs/peripheral_examples}{\texttt{ Silicon Labs\textquotesingle{} Git\+Hub}}. These sections are licensed under the Silabs License Agreement. See the file \char`\"{}\+Silabs\+\_\+\+License\+\_\+\+Agreement.\+txt\char`\"{} for details. Before using this software for any purpose, you must agree to the terms of that agreement. 
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{debug__dbprint_8h_a4ef257e0f94ec070ab7a49a0431dfbec}\label{debug__dbprint_8h_a4ef257e0f94ec070ab7a49a0431dfbec}} 
+\index{debug\_dbprint.h@{debug\_dbprint.h}!DEBUG\_DBPRINT@{DEBUG\_DBPRINT}}
+\index{DEBUG\_DBPRINT@{DEBUG\_DBPRINT}!debug\_dbprint.h@{debug\_dbprint.h}}
+\doxysubsubsection{\texorpdfstring{DEBUG\_DBPRINT}{DEBUG\_DBPRINT}}
+{\footnotesize\ttfamily \#define D\+E\+B\+U\+G\+\_\+\+D\+B\+P\+R\+I\+NT~0}
+
+Public definition to enable/disable U\+A\+RT debugging \begin{DoxyItemize}
+\item {\ttfamily 1} -\/ Enable the U\+A\+RT debugging statements. \item {\ttfamily 0} -\/ Remove all U\+A\+RT debugging statements from the uploaded code. \end{DoxyItemize}

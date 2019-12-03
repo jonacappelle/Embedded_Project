@@ -5,6 +5,14 @@
  *      Author: jonac
  */
 
+/***************************************************************************//**
+ * @file I2C.h
+ * @brief I2C function to read-write the I2C bus, based on DRAMCO code
+ * @version 1.0
+ * @author Jona Cappelle & Thomas Feys
+ * ****************************************************************************/
+
+
 #ifndef AMG8833_I2C_H_
 #define AMG8833_I2C_H_
 

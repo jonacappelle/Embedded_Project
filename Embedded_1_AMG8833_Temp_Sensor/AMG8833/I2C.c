@@ -4,6 +4,12 @@
  *  Created on: Nov 18, 2019
  *      Author: jonac
  */
+/***************************************************************************//**
+ * @file I2C.c
+ * @brief I2C function to read-write the I2C bus, based on DRAMCO code
+ * @version 1.0
+ * @author Jona Cappelle & Thomas Feys
+ * ****************************************************************************/
 
 
 /*  ____  ____      _    __  __  ____ ___
@@ -36,6 +42,11 @@
 I2CSPM_Init_TypeDef i2cInit = I2CSPM_INIT_DEFAULT;
 
 
+/**************************************************************************//**
+ * @brief
+ *   Setup I2C functionality
+ *
+ *****************************************************************************/
 void IIC_Init(void){
 
 	/* We use the standard I2C pins and ports, so no need to adjust */
@@ -54,10 +65,33 @@ void IIC_Init(void){
 	I2CSPM_Init(&i2cInit);
 }
 
+/**************************************************************************//**
+ * @brief
+ *   Resets the I2C interface
+ *
+ * @note
+ *   Normally not needed, just in case
+ *
+ * @param[in] void
+ *****************************************************************************/
 void IIC_Reset(void){
 	I2C_Reset(i2cInit.port);
 }
 
+
+/**************************************************************************//**
+ * @brief
+ *   I2C write functionality
+ *
+ * @param[in] iicAddress
+ *   10bit I2C address
+ *
+ * @param[in] wBuffer
+ *	 Address where the data is that needs to be written
+ *
+ *	@param[in] wLength
+ *	Length of the data that has to be written
+ *****************************************************************************/
 bool IIC_WriteBuffer(uint8_t iicAddress, uint8_t * wBuffer, uint8_t wLength){
 	I2C_TransferSeq_TypeDef seq;
 	I2C_TransferReturn_TypeDef ret;
@@ -81,6 +115,23 @@ bool IIC_WriteBuffer(uint8_t iicAddress, uint8_t * wBuffer, uint8_t wLength){
 	return true;
 }
 
+/**************************************************************************//**
+ * @brief
+ *   I2C read functionality
+ *
+ * @param[in] iicAddress
+ *   10bit I2C address
+ *
+ * @param[in] regCommand
+ *	 Address that needs to be read
+ *
+ * @param[in] rBuffer
+ *	 Address where the read data needs to be stored
+ *
+ *	@param[in] rLength
+ *	Length of the data that has to be read
+ *
+ *****************************************************************************/
 bool IIC_ReadBuffer(uint8_t iicAddress, uint8_t regCommand, uint8_t * rBuffer, uint8_t rLength){
 	I2C_TransferSeq_TypeDef seq;
 	I2C_TransferReturn_TypeDef ret;
@@ -106,6 +157,24 @@ bool IIC_ReadBuffer(uint8_t iicAddress, uint8_t regCommand, uint8_t * rBuffer, u
 	return true;
 }
 
+
+/**************************************************************************//**
+ * @brief
+ *   I2C read/write functionality, to read and write at the same time
+ *
+ * @param[in] iicAddress
+ *   10bit I2C address
+ *
+ * @param[in] regCommand
+ *	 Address that needs to be read
+ *
+ * @param[in] rBuffer
+ *	 Address where the read data needs to be stored
+ *
+ *	@param[in] rLength
+ *	Length of the data that has to be read
+ *
+ *****************************************************************************/
 bool IIC_WriteReadBuffer(uint8_t iicAddress, uint8_t * wBuffer, uint8_t wLength, uint8_t *rBuffer, uint8_t rLength){
 	I2C_TransferSeq_TypeDef seq;
 	I2C_TransferReturn_TypeDef ret;

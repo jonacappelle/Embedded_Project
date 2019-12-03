@@ -3,40 +3,55 @@
  * @brief Code to read AMG8833
  * @details Project for Lab Embedded Systems 1
  * @version 1.0
- * @author Jona Cappelle
- * ****************************************************************************/
+ * @author Jona Cappelle & Thomas Feys
+ * ****************************************************************************
+ *
+ * @todo
+ *  Future improvements:**@n
+ *     - Implement state machine
+ *     - Interrupt functionality
+ *     - Make MCU low power by using EM2 RTC timers
+ *****************************************************************************/
 
-/* Includes */
+/* System Includes */
 #include "em_device.h"
-#include "em_chip.h"
+#include "em_chip.h"			/* Needed to initialize the chip */
 #include "em_cmu.h"
+#include "em_emu.h"				/* Nedded to use different energy modes, EM0 - EM1 - EM2 - EM3 - EM4 */
+#include "em_gpio.h"			/* Needed to use GPIO pins */
+#include "em_rtc.h"				/* Needed to use RTC timers to generate low power interrupts */
+#include "em_core.h"			/* Needed to use core functionality */
+
+/* Self-written libraries */
+#include "AMG8833.h"			/* Include our self-written AMG8833 class to interface with the sensor */
+#include "I2C.h"				/* DRAMCO inspired I2C read - write - readwrite library */
 #include "em_i2c.h"
-#include "I2C.h"
-#include "em_gpio.h"
-#include "AMG8833.h"
-#include "em_device.h"
-#include "em_emu.h"
-#include "em_gpio.h"
-#include "em_rtc.h"
-#include "em_core.h"
-#include "i2cspm.h"
+#include "i2cspm.h"				/* I2C higher level library to easily setup and use I2C */
 
-/* dbprint include */
-#include "debug_dbprint.h"
-#include "em_usart.h"
+/* Fescron dbprint include */
+#include "debug_dbprint.h"		/* Fescron dbprint arduino like library */
+#include "em_usart.h"			/* Needed to use USART functionality for dbprint */
 
-/* Delay */
-//#include "delay.h"
 
 volatile uint32_t msTickCount;       /* Counts 1ms time ticks */
 static volatile uint32_t msTicks; /* counts 1ms timeTicks */
 
 
+/**************************************************************************//**
+ * @brief
+ *   SysTick_Handler needed for timer functionality
+ *
+ *****************************************************************************/
 void SysTick_Handler(void)
 {
 	  msTicks++;       /* increment counter necessary in Delay()*/
 }
 
+/**************************************************************************//**
+ * @brief
+ *   Configure the SysTick to use cmuClock_CORE for 1 ms interrupts
+ *
+ *****************************************************************************/
 void delay_init(void)
 {
 	  /* Setup SysTick Timer for 1 msec interrupts  */
@@ -45,6 +60,14 @@ void delay_init(void)
 	  }
 }
 
+/**************************************************************************//**
+ * @brief
+ *   Non-low-power delay, but non-blocking
+ *
+ * @param[in] dlyTicks
+ *	 How many milli seconds delay
+ *
+ *****************************************************************************/
 void delay(uint32_t dlyTicks)
 {
 	  uint32_t curTicks;
@@ -53,6 +76,14 @@ void delay(uint32_t dlyTicks)
 	  while ((msTicks - curTicks) < dlyTicks) ;
 }
 
+/**************************************************************************//**
+ * @brief
+ *   Main function
+ *
+ * @details
+ * 	We used a state machine to control the states where our microcontroller is in
+ *
+ *****************************************************************************/
 int main(void)
 {
   /* Chip errata */
@@ -79,7 +110,6 @@ int main(void)
 
 
   AMG8833_Thermistor_Read(rBuffer_Thermistor);
-
 
 
 

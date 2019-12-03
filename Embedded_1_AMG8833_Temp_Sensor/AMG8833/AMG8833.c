@@ -5,6 +5,14 @@
  *      Author: jonac
  */
 
+/***************************************************************************//**
+ * @file AMG8833.c
+ * @brief Interface with AMG8833 IR Temp camera
+ * @version 1.0
+ * @author Jona Cappelle & Thomas Feys
+ * ****************************************************************************/
+
+
 #include "AMG8833.h"
 #include "I2C.h"
 
@@ -17,7 +25,15 @@
 #include <stdbool.h>
 
 
-
+/**************************************************************************//**
+ * @brief
+ *   Read the thermistor value of the AMG8833 IR sensor
+ *   The data is processed as described in the datasheet
+ *
+ * @param[in] rBuffer_Thermistor
+ *   Address where the read thermistor value is stored
+ *
+ *****************************************************************************/
 void AMG8833_Thermistor_Read(float *rBuffer_Thermistor)
 {
 	uint8_t rBuffer[2];
@@ -30,6 +46,16 @@ void AMG8833_Thermistor_Read(float *rBuffer_Thermistor)
 	*rBuffer_Thermistor = ( ( rBuffer[1] << 8 ) | rBuffer[0] ) * THERMISTOR_RES;
 }
 
+
+/**************************************************************************//**
+ * @brief
+ *   Read the value of all 64 IR pixels
+ *   The data is processed as described in the datasheet
+ *
+ * @param[in] rBuffer_Pixels
+ *   Begin address where the read values of the pixel array is stored
+ *
+ *****************************************************************************/
 void AMG8833_Pixels_Read(float *rBuffer_Pixels)
 {
 	uint8_t rBuffer[128];
@@ -46,6 +72,15 @@ void AMG8833_Pixels_Read(float *rBuffer_Pixels)
 	}
 }
 
+
+/**************************************************************************//**
+ * @brief
+ *   Print all the values of the IR pixel array
+ *
+ * @param[in] rBuffer_Pixels
+ *   Address where the read thermistor value is stored
+ *
+ *****************************************************************************/
 void AMG8833_Pixel_Print(float *rBuffer_Pixels)
 {
 #if DEBUG_DBPRINT == 1 /* DEBUG_DBPRINT */
@@ -64,6 +99,22 @@ void AMG8833_Pixel_Print(float *rBuffer_Pixels)
 #endif /* DEBUG_DBPRINT */
 }
 
+
+/**************************************************************************//**
+ * @brief
+ *   Function to set the AMG8833 to sleep
+ *
+ *@details
+ *	Power consumption sleep: 0.2 mA
+ *
+ * @note
+ * 	In sleep mode, nothing can be read from the registers
+ *
+ * @param[in] enable
+ *   @li 'true' - sleep mode
+ *   @li 'false' - normal mode
+ *
+ *****************************************************************************/
 void AMG8833_Sleep(bool enable)
 {
 	uint8_t rBuffer[1];
@@ -84,6 +135,9 @@ void AMG8833_Sleep(bool enable)
 /**************************************************************************//**
  * @brief
  *   Set AGM8833 in stand by
+ *
+ * @details
+ * 	Power consumption stand-by: 0.8 mA
  *
  * @note
  *   Can't go from SLEEP to STAND-BY!
@@ -110,8 +164,12 @@ void AMG8833_StandBy(uint8_t time)
 	IIC_WriteBuffer(I2C_ADDRESS, wBuffer, 2);
 }
 
-
-void AMG8833_Reset(bool enable)
+/**************************************************************************//**
+ * @brief
+ *   Resets the AMG8833 sensor to default settings
+ *
+ *****************************************************************************/
+void AMG8833_Reset(void)
 {
 
 }

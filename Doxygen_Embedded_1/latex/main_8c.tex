@@ -1,0 +1,115 @@
+\hypertarget{main_8c}{}\doxysection{Embedded\+\_\+1\+\_\+\+A\+M\+G8833\+\_\+\+Temp\+\_\+\+Sensor/src/main.c File Reference}
+\label{main_8c}\index{Embedded\_1\_AMG8833\_Temp\_Sensor/src/main.c@{Embedded\_1\_AMG8833\_Temp\_Sensor/src/main.c}}
+
+
+Code to read A\+M\+G8833.  
+
+
+{\ttfamily \#include \char`\"{}em\+\_\+device.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}em\+\_\+chip.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}em\+\_\+cmu.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}em\+\_\+emu.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}em\+\_\+gpio.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}em\+\_\+rtc.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}em\+\_\+core.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}A\+M\+G8833.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}I2\+C.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}em\+\_\+i2c.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}i2cspm.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}debug\+\_\+dbprint.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}em\+\_\+usart.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{main_8c_ab5e09814056d617c521549e542639b7e}{Sys\+Tick\+\_\+\+Handler}} (void)
+\begin{DoxyCompactList}\small\item\em Sys\+Tick\+\_\+\+Handler needed for timer functionality. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_af3c040fe31e69be32855715a75e0cda4}{delay\+\_\+init}} (void)
+\begin{DoxyCompactList}\small\item\em Configure the Sys\+Tick to use cmu\+Clock\+\_\+\+C\+O\+RE for 1 ms interrupts. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_a87a8c0b4406c4c1dcd07a44faad32cc3}{delay}} (uint32\+\_\+t dly\+Ticks)
+\begin{DoxyCompactList}\small\item\em Non-\/low-\/power delay, but non-\/blocking. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8c_a840291bc02cba5474a4cb46a9b9566fe}{main}} (void)
+\begin{DoxyCompactList}\small\item\em Main function. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+volatile uint32\+\_\+t \mbox{\hyperlink{main_8c_aa0136a2a587fb0a516dad92585b864d9}{ms\+Tick\+Count}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Code to read A\+M\+G8833. 
+
+Project for Lab Embedded Systems 1 \begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyAuthor}{Author}
+Jona Cappelle \& Thomas Feys
+\end{DoxyAuthor}
+\DoxyHorRuler
+
+
+\begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000001}{Todo}}]Future improvements\+:$\ast$$\ast$~\newline
+
+\begin{DoxyItemize}
+\item Implement state machine
+\item Interrupt functionality
+\item Make M\+CU low power by using E\+M2 R\+TC timers
+\end{DoxyItemize}\end{DoxyRefDesc}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8c_a87a8c0b4406c4c1dcd07a44faad32cc3}\label{main_8c_a87a8c0b4406c4c1dcd07a44faad32cc3}} 
+\index{main.c@{main.c}!delay@{delay}}
+\index{delay@{delay}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{delay()}{delay()}}
+{\footnotesize\ttfamily void delay (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{dly\+Ticks }\end{DoxyParamCaption})}
+
+
+
+Non-\/low-\/power delay, but non-\/blocking. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em dly\+Ticks} & How many milli seconds delay \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8c_af3c040fe31e69be32855715a75e0cda4}\label{main_8c_af3c040fe31e69be32855715a75e0cda4}} 
+\index{main.c@{main.c}!delay\_init@{delay\_init}}
+\index{delay\_init@{delay\_init}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{delay\_init()}{delay\_init()}}
+{\footnotesize\ttfamily void delay\+\_\+init (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Configure the Sys\+Tick to use cmu\+Clock\+\_\+\+C\+O\+RE for 1 ms interrupts. 
+
+\mbox{\Hypertarget{main_8c_a840291bc02cba5474a4cb46a9b9566fe}\label{main_8c_a840291bc02cba5474a4cb46a9b9566fe}} 
+\index{main.c@{main.c}!main@{main}}
+\index{main@{main}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Main function. 
+
+We used a state machine to control the states where our microcontroller is in \mbox{\Hypertarget{main_8c_ab5e09814056d617c521549e542639b7e}\label{main_8c_ab5e09814056d617c521549e542639b7e}} 
+\index{main.c@{main.c}!SysTick\_Handler@{SysTick\_Handler}}
+\index{SysTick\_Handler@{SysTick\_Handler}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{SysTick\_Handler()}{SysTick\_Handler()}}
+{\footnotesize\ttfamily void Sys\+Tick\+\_\+\+Handler (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Sys\+Tick\+\_\+\+Handler needed for timer functionality. 
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{main_8c_aa0136a2a587fb0a516dad92585b864d9}\label{main_8c_aa0136a2a587fb0a516dad92585b864d9}} 
+\index{main.c@{main.c}!msTickCount@{msTickCount}}
+\index{msTickCount@{msTickCount}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{msTickCount}{msTickCount}}
+{\footnotesize\ttfamily volatile uint32\+\_\+t ms\+Tick\+Count}
+
