@@ -1,8 +1,9 @@
 \documentclass[]{article}
 \usepackage[dutch]{babel}
 \usepackage{graphicx}
+\usepackage{amsmath}
 %opening
-\title{}
+\title{Lab: emedded system design 1}
 \author{Thomas Feys \and Jona Cappelle}
 
 \begin{document}
@@ -22,7 +23,8 @@ De sensor die we gebruiken om de wachtrij te monitoren is de AMG8833. Deze IR gr
 	\caption{Overzicht operating modes}
 	\label{fig:operatingmodes}
 \end{figure}
-%todo figuur aanpassen naar screenshot powermodes in de power monitor
+%todo figuur aanpassen naar screenshot powermodes in de power monitor 
+%todo test doen in verschillende modes met processor in sleep
 \begin{figure}[!ht]
 	\centering
 	\includegraphics{operatingmodes.png}
@@ -32,7 +34,6 @@ De sensor die we gebruiken om de wachtrij te monitoren is de AMG8833. Deze IR gr
 \section{Systeem}
 \subsection{overzicht}
 De AMG8833 communiceert met de EFM32 via I2C. Naast de I2C communicatie is er ook een interrupt pin voorzien op de sensor. Deze pin genereert een interrupt als er een van de pixels een bepaalde, instelbare waarde overschrijdt. Een volledig overzicht van het systeem is te zien in figuur \ref{fig:systeem}.
-%todo figuur maken in draw.io van het volledige systeem
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[scale=0.5]{sys.png}
@@ -50,8 +51,7 @@ Om gemakkelijk met de sensor te werken werd er een library geschreven voor de AM
 
 \subsection{Flow van de code}
 \label{flowcode}
-Om het verbruik te minimaliseren wordt er maar om de 5 minuten gecontroleerd of er mensen aanwezig zijn. Omdat de sensor in sleep 0.2 mA verbruikt wordt de sensor volledig uit gezet door de gpio pin uit te zetten. Om de 5 minuten wordt de gpio pin aangezet en de sensor in de stand-by mode gezet waar de waardes om de 60 seconden ververst worden. Aangezien de output van de sensor 20 seconden nodig heeft om te stabiliseren wordt de eerste uitgelezen waarde genegeerd. De waardes worden uitgelezen als de sensor een interrupt genereert. Dit gebeurt als er 1 van de pixels boven de treshhold ligt. Indien er na 2 minuten geen interrupt gegenereerd wordt, wordt de gpio pin van de sensor weer uitgezet. Indien er wel een interrupt gegenereerd wordt, wordt er gecontroleerd of er X aantal waarden boven de threshold zijn. Als dit het geval is, dan blijft de sensor in stand-by en wordt ze uitgelezen telkens als er een interrupt gegenereerd wordt. Indien er 2 minuten geen interrupt gegenereerd wordt, wordt de gpio pin weer uitgezet. Indien er niet voldoende pixels boven de treshhold liggen dan wordt de gpio pin weer uitgezet. Een volledig overzicht van de code is terug te vinden in figuur \ref{fig:flowchart}.
-%todo flowchart maken en figuur vervangen
+Om het verbruik te minimaliseren wordt er maar om de 5 minuten gecontroleerd of er mensen aanwezig zijn. Omdat de sensor in sleep 0.2 mA verbruikt wordt de sensor volledig uit gezet door de gpio pin uit te zetten. Om de 5 minuten wordt de gpio pin aangezet en de sensor in de stand-by mode gezet waar de waardes om de 60 seconden ververst worden. Aangezien de output van de sensor 20 seconden nodig heeft om te stabiliseren wordt de eerste uitgelezen waarde genegeerd. De waardes worden uitgelezen als de sensor een interrupt genereert. Dit gebeurt als er 1 van de pixels boven de threshold ligt. Indien er na 2 minuten geen interrupt gegenereerd wordt, wordt de gpio pin van de sensor weer uitgezet. Indien er wel een interrupt gegenereerd wordt, wordt er gecontroleerd of er X aantal waarden boven de threshold zijn. Als dit het geval is, dan blijft de sensor in stand-by en wordt ze uitgelezen telkens als er een interrupt gegenereerd wordt. Indien er 2 minuten geen interrupt gegenereerd wordt, wordt de gpio pin weer uitgezet. Indien er niet voldoende pixels boven de threshold liggen dan wordt de gpio pin weer uitgezet. Een volledig overzicht van de code is terug te vinden in figuur \ref{fig:flowchart}.
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[scale=0.5]{flowchartcode.png}
@@ -64,14 +64,19 @@ Om het verbruik te minimaliseren wordt er maar om de 5 minuten gecontroleerd of 
 
 \subsection{Principe}
 \paragraph{Sensor: }
-Door de methode toe te passen die in besproken werd in section \ref{flowcode} wordt de power consumptie sterk verminderd. Wanneer er geen mensen aanwezig zijn, wordt het verbruik met 60 procent verminderd aangezien de sensor om de 5 minuten, 2 minuten aangezet wordt. Verder is het verbruik afhankelijk van hoe frequent er mensen in de wachtrij staan. In de berekeningen gaan we er van uit dat er enkel mensen aan het wachten zijn tussen 11u en 14u. In dit geval zal de sensor 3u per dag constant in stand-by staan aangezien er 3u lang mensen aanwezig zijn. Verder zal de sensor nog 21u 24 minuten per uur aanstaan om periodiek te kijken of er iemand aan het wachten is. Als we dit na rekenen bekomen we dat de sensor 11.4 uur in stand-by staat. Dit komt uit op een stroom verbruik van: 
+Door de methode toe te passen die in besproken werd in section \ref{flowcode} wordt de power consumptie sterk verminderd. Wanneer er geen mensen aanwezig zijn, wordt het verbruik met 60 procent verminderd aangezien de sensor om de 5 minuten, 2 minuten aangezet wordt. Verder is het verbruik afhankelijk van hoe frequent er mensen in de wachtrij staan. In de berekeningen gaan we er van uit dat er enkel mensen aan het wachten zijn tussen 11u en 14u. In dit geval zal de sensor 3u per dag constant in stand-by staan aangezien er 3u lang mensen aanwezig zijn. Verder zal de sensor nog 21u, 24 minuten per uur aanstaan om periodiek te kijken of er iemand aan het wachten is. Als we dit na rekenen bekomen we dat de sensor 11.4 uur in stand-by staat. Dit komt uit op een stroom verbruik van: 
 \begin{equation}
-	\frac{11.4 h\cdot 0.8 mAh}{24 h} = 0.38 mAh
+	\frac{11.4 \text{ h}\cdot 0.8 \text{ mAh}}{24 \text{ h}} = 0.38 \text{ mAh}
 \end{equation}
-
+Indien deze methode niet toegepast wordt is er een verbruik van 0.8 mAh. We bekomen dus een besparing van 47.5 procent. 
 \paragraph{Processor: }
 
 \subsection{Metingen}
+\paragraph{Geen aanwezigheid: }
+meting doen met geen aanwezigheid: sensor constant aan en uit
+
+\paragraph{Aanwezigheid: }
+meting doen met constant x waarden $>$ threshold
 
 
 \section{Besluit }

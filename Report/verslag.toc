@@ -12,4 +12,6 @@
 \contentsline {paragraph}{Sensor: }{4}% 
 \contentsline {paragraph}{Processor: }{6}% 
 \contentsline {subsection}{\numberline {5.2}Metingen}{6}% 
+\contentsline {paragraph}{Geen aanwezigheid: }{6}% 
+\contentsline {paragraph}{Aanwezigheid: }{6}% 
 \contentsline {section}{\numberline {6}Besluit }{6}% 
