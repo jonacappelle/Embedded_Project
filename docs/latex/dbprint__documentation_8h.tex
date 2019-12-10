@@ -1,0 +1,125 @@
+\hypertarget{dbprint__documentation_8h}{}\doxysection{Embedded\+\_\+1\+\_\+\+A\+M\+G8833\+\_\+\+Temp\+\_\+\+Sensor/dbprint/dbprint\+\_\+documentation.h File Reference}
+\label{dbprint__documentation_8h}\index{Embedded\_1\_AMG8833\_Temp\_Sensor/dbprint/dbprint\_documentation.h@{Embedded\_1\_AMG8833\_Temp\_Sensor/dbprint/dbprint\_documentation.h}}
+
+
+This file contains useful documentation closely related to dbprint.  
+
+
+
+
+\doxysubsection{Detailed Description}
+This file contains useful documentation closely related to dbprint. 
+
+\begin{DoxyVersion}{Version}
+6.\+2 
+\end{DoxyVersion}
+\begin{DoxyAuthor}{Author}
+Brecht Van Eeckhoudt
+\end{DoxyAuthor}
+\DoxyHorRuler
+\hypertarget{dbprint__documentation_8h_DeBugPrint}{}\doxysubsection{De\+Bug\+Print}\label{dbprint__documentation_8h_DeBugPrint}
+De\+Bug\+Print is a homebrew minimal low-\/level println/printf replacement. It can be used to to print text/values to uart without a lot of external libraries. The end goal was to use no external libraries (with methods like {\ttfamily itoa}) apart from the ones specific to the microcontroller.
+
+\DoxyHorRuler
+\hypertarget{dbprint__documentation_8h_Doxygen}{}\doxysubsection{Doxygen}\label{dbprint__documentation_8h_Doxygen}
+These files have been made with \href{www.doxygen.org}{\texttt{ {\bfseries{Doxygen}}}} comments above all methods to generate documentation. A combination of {\bfseries{Doxygen-\/specific tags}} (preceded with an {\ttfamily @} symbol) and {\bfseries{markdown syntax}} are supported to generate, for example, H\+T\+M\+L-\/files.
+
+\DoxyHorRuler
+\hypertarget{dbprint__documentation_8h_ENABLE}{}\doxysubsection{Enable/disable dbprint using definition in $<$tt$>$debug\+\_\+dbprint.\+h$<$/tt$>$}\label{dbprint__documentation_8h_ENABLE}
+In the file {\ttfamily \mbox{\hyperlink{debug__dbprint_8h}{debug\+\_\+dbprint.\+h}}} {\bfseries{dbprint U\+A\+RT functionality can be enabled/disabled}} with the definition {\ttfamily \#define D\+E\+B\+U\+G\+\_\+\+D\+B\+P\+R\+I\+NT}. If it\textquotesingle{}s value is {\ttfamily 0}, all dbprint functionality is disabled.
+
+\begin{DoxyNote}{Note}
+This means that the {\bfseries{only header file to include in your projects}} for dbprint to work is~\newline
+ {\ttfamily \#include \mbox{\hyperlink{debug__dbprint_8h}{debug\+\_\+dbprint.\+h}}}
+
+If you also want to use this definition to enable/disable dbprint statements in your code, please use the following convention\+:~\newline
+ {\ttfamily \#if D\+E\+B\+U\+G\+\_\+\+D\+B\+P\+R\+I\+NT == 1 // D\+E\+B\+U\+G\+\_\+\+D\+B\+P\+R\+I\+NT}~\newline
+ {\ttfamily $<$your source code dbprint statements go here$>$}~\newline
+ {\ttfamily \#endif // D\+E\+B\+U\+G\+\_\+\+D\+B\+P\+R\+I\+NT}
+\end{DoxyNote}
+\DoxyHorRuler
+\hypertarget{dbprint__documentation_8h_DBPRINT}{}\doxysubsection{More info about dbprint and V\+C\+OM}\label{dbprint__documentation_8h_DBPRINT}
+V\+C\+OM is an on-\/board (S\+L\+S\+T\+K3400A) U\+A\+RT to U\+SB converter alongside the Segger J-\/\+Link debugger, connected with microcontroller pins {\ttfamily P\+A0} (RX) and {\ttfamily P\+F2} (TX). This converter can then be used with Putty or another serial port program.
+
+\begin{DoxyNote}{Note}
+When you want to debug using V\+C\+OM with interrupt functionality disabled, you can use the following initialization settings\+:~\newline
+ {\ttfamily dbprint\+\_\+\+I\+N\+I\+T(\+U\+S\+A\+R\+T1, 4, true, false);}
+
+When using {\ttfamily dbprint} functionality, the following settings are used\+:~\newline
+
+\begin{DoxyItemize}
+\item Baudrate = 115200
+\item 8 databits
+\item 1 stopbit
+\item No parity
+\end{DoxyItemize}
+\end{DoxyNote}
+\DoxyHorRuler
+\hypertarget{dbprint__documentation_8h_ENERGY}{}\doxysubsection{Energy profiler and dbprint}\label{dbprint__documentation_8h_ENERGY}
+The Energy profiler in Simplicity Studio seems to use V\+C\+OM somehow, change to using an external U\+A\+RT adapter if both the energy profiler and U\+A\+RT debugging are necessary at the same time!
+
+If the energy profiler was used and the code functionality was switched, physically re-\/plug the board to make sure V\+C\+OM U\+A\+RT starts working again!
+
+\DoxyHorRuler
+\hypertarget{dbprint__documentation_8h_UART}{}\doxysubsection{Alternate U\+A\+R\+T Functionality Pinout}\label{dbprint__documentation_8h_UART}
+\tabulinesep=1mm
+\begin{longtabu}spread 0pt [c]{*{8}{|X[-1]}|}
+\hline
+\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Location  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ {\ttfamily \#0}  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ {\ttfamily \#1}  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ {\ttfamily \#2}  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ {\ttfamily \#3}  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ {\ttfamily \#4}  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ {\ttfamily \#5}  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ {\ttfamily \#6}   }\\\cline{1-8}
+\endfirsthead
+\hline
+\endfoot
+\hline
+\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Location  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ {\ttfamily \#0}  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ {\ttfamily \#1}  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ {\ttfamily \#2}  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ {\ttfamily \#3}  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ {\ttfamily \#4}  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ {\ttfamily \#5}  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ {\ttfamily \#6}   }\\\cline{1-8}
+\endhead
+{\ttfamily U\+S0\+\_\+\+RX}  &{\ttfamily P\+E11}  &&{\ttfamily P\+C10}  &{\ttfamily P\+E12}  &{\ttfamily P\+B08}  &{\ttfamily P\+C01}  &{\ttfamily P\+C01}   \\\cline{1-8}
+{\ttfamily U\+S0\+\_\+\+TX}  &{\ttfamily P\+E10}  &&&{\ttfamily P\+E13}  &{\ttfamily P\+B07}  &{\ttfamily P\+C00}  &{\ttfamily P\+C00}   \\\cline{1-8}
+&&&&&&&\\\cline{1-8}
+{\ttfamily U\+S1\+\_\+\+RX}  &{\ttfamily P\+C01}  &&{\ttfamily P\+D06}  &{\ttfamily P\+D06}  &{\ttfamily P\+A00}  &{\ttfamily P\+C02}  &\\\cline{1-8}
+{\ttfamily U\+S1\+\_\+\+TX}  &{\ttfamily P\+C00}  &&{\ttfamily P\+D07}  &{\ttfamily P\+D07}  &{\ttfamily P\+F02}  &{\ttfamily P\+C01}  &\\\cline{1-8}
+\end{longtabu}
+
+
+V\+C\+OM\+:
+\begin{DoxyItemize}
+\item U\+S\+A\+R\+T1 \#4 (U\+S\+A\+R\+T0 can\textquotesingle{}t be used)
+\item RX -\/ {\ttfamily P\+A0}
+\item TX -\/ {\ttfamily P\+F2}
+\end{DoxyItemize}
+
+\DoxyHorRuler
+\hypertarget{dbprint__documentation_8h_Keywords}{}\doxysubsection{Keywords}\label{dbprint__documentation_8h_Keywords}
+\hypertarget{dbprint__documentation_8h_Volatile}{}\doxysubsubsection{Volatile}\label{dbprint__documentation_8h_Volatile}
+The {\ttfamily volatile} type indicates to the compiler that the data is not normal memory, and could change at unexpected times. Hardware registers are often volatile, and so are variables which get changed in interrupts.\hypertarget{dbprint__documentation_8h_Static}{}\doxysubsubsection{Static}\label{dbprint__documentation_8h_Static}
+
+\begin{DoxyItemize}
+\item {\bfseries{Static variable inside a function\+:}} The variable keeps its value between invocations.
+\item {\bfseries{Static global variable or function\+:}} The variable or function is only \char`\"{}seen\char`\"{} in the file it\textquotesingle{}s declared in.
+\end{DoxyItemize}
+
+\DoxyHorRuler
+\hypertarget{dbprint__documentation_8h_DATA}{}\doxysubsection{Bits, bytes, nibbles and unsigned/signed integer value ranges}\label{dbprint__documentation_8h_DATA}
+
+\begin{DoxyItemize}
+\item 1 nibble = 4 bits ({\ttfamily 0b1111} = {\ttfamily 0xF} )
+\item 1 byte = 8 bits ({\ttfamily 0b1111 1111} = {\ttfamily 0x\+FF})
+\end{DoxyItemize}
+
+\tabulinesep=1mm
+\begin{longtabu}spread 0pt [c]{*{5}{|X[-1]}|}
+\hline
+\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Type  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Alias  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Size  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Minimum value  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Maximum value   }\\\cline{1-5}
+\endfirsthead
+\hline
+\endfoot
+\hline
+\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Type  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Alias  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Size  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Minimum value  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Maximum value   }\\\cline{1-5}
+\endhead
+{\ttfamily uint8\+\_\+t}  &{\ttfamily unsigned char}  &1 byte  &0  &255 ({\ttfamily 0x\+FF})   \\\cline{1-5}
+{\ttfamily uint16\+\_\+t}  &{\ttfamily unsigned short}  &2 bytes  &0  &65 535 ({\ttfamily 0x\+F\+F\+FF})   \\\cline{1-5}
+{\ttfamily uint32\+\_\+t}  &{\ttfamily unsigned int}  &4 bytes  &0  &4 294 967 295 ({\ttfamily 0x\+F\+F\+FF F\+F\+FF})   \\\cline{1-5}
+&&&&\\\cline{1-5}
+{\ttfamily int8\+\_\+t}  &{\ttfamily signed char}  &1 byte  &-\/128  &127   \\\cline{1-5}
+{\ttfamily int16\+\_\+t}  &{\ttfamily signed short}  &2 bytes  &-\/32 768  &32 767   \\\cline{1-5}
+{\ttfamily int32\+\_\+t}  &{\ttfamily signed int}  &4 bytes  &-\/2 147 483 648  &2 147 483 647   \\\cline{1-5}
+\end{longtabu}

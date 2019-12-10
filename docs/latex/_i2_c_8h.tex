@@ -1,0 +1,124 @@
+\hypertarget{_i2_c_8h}{}\doxysection{Embedded\+\_\+1\+\_\+\+A\+M\+G8833\+\_\+\+Temp\+\_\+\+Sensor/\+A\+M\+G8833/\+I2C.h File Reference}
+\label{_i2_c_8h}\index{Embedded\_1\_AMG8833\_Temp\_Sensor/AMG8833/I2C.h@{Embedded\_1\_AMG8833\_Temp\_Sensor/AMG8833/I2C.h}}
+
+
+I2C function to read-\/write the I2C bus, based on D\+R\+A\+M\+CO code.  
+
+
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_i2_c_8h_adc2aa003a8bc13c866e90661fa908189}{I\+I\+C\+\_\+\+Init}} (void)
+\begin{DoxyCompactList}\small\item\em Setup I2C functionality. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_i2_c_8h_a20cf9a3b52c6a0e5b84b6e798c8dcb11}{I\+I\+C\+\_\+\+Reset}} (void)
+\begin{DoxyCompactList}\small\item\em Resets the I2C interface. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{_i2_c_8h_a47431e985fd340e0e1d8a112bfe9ddcc}{I\+I\+C\+\_\+\+Write\+Buffer}} (uint8\+\_\+t iic\+Address, uint8\+\_\+t $\ast$w\+Buffer, uint8\+\_\+t w\+Length)
+\begin{DoxyCompactList}\small\item\em I2C write functionality. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{_i2_c_8h_a64d2f470c338361bb82df486f8002b19}{I\+I\+C\+\_\+\+Read\+Buffer}} (uint8\+\_\+t iic\+Address, uint8\+\_\+t reg\+Command, uint8\+\_\+t $\ast$r\+Buffer, uint8\+\_\+t r\+Length)
+\begin{DoxyCompactList}\small\item\em I2C read functionality. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{_i2_c_8h_a06104f2b83b9e221737ba5a75c6edc4c}{I\+I\+C\+\_\+\+Write\+Read\+Buffer}} (uint8\+\_\+t iic\+Address, uint8\+\_\+t $\ast$w\+Buffer, uint8\+\_\+t w\+Length, uint8\+\_\+t $\ast$r\+Buffer, uint8\+\_\+t r\+Length)
+\begin{DoxyCompactList}\small\item\em I2C read/write functionality, to read and write at the same time. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+I2C function to read-\/write the I2C bus, based on D\+R\+A\+M\+CO code. 
+
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyAuthor}{Author}
+Jona Cappelle \& Thomas Feys 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_i2_c_8h_adc2aa003a8bc13c866e90661fa908189}\label{_i2_c_8h_adc2aa003a8bc13c866e90661fa908189}} 
+\index{I2C.h@{I2C.h}!IIC\_Init@{IIC\_Init}}
+\index{IIC\_Init@{IIC\_Init}!I2C.h@{I2C.h}}
+\doxysubsubsection{\texorpdfstring{IIC\_Init()}{IIC\_Init()}}
+{\footnotesize\ttfamily void I\+I\+C\+\_\+\+Init (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Setup I2C functionality. 
+
+\mbox{\Hypertarget{_i2_c_8h_a64d2f470c338361bb82df486f8002b19}\label{_i2_c_8h_a64d2f470c338361bb82df486f8002b19}} 
+\index{I2C.h@{I2C.h}!IIC\_ReadBuffer@{IIC\_ReadBuffer}}
+\index{IIC\_ReadBuffer@{IIC\_ReadBuffer}!I2C.h@{I2C.h}}
+\doxysubsubsection{\texorpdfstring{IIC\_ReadBuffer()}{IIC\_ReadBuffer()}}
+{\footnotesize\ttfamily bool I\+I\+C\+\_\+\+Read\+Buffer (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{iic\+Address,  }\item[{uint8\+\_\+t}]{reg\+Command,  }\item[{uint8\+\_\+t $\ast$}]{r\+Buffer,  }\item[{uint8\+\_\+t}]{r\+Length }\end{DoxyParamCaption})}
+
+
+
+I2C read functionality. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em iic\+Address} & 10bit I2C address\\
+\hline
+\mbox{\texttt{ in}}  & {\em reg\+Command} & Address that needs to be read\\
+\hline
+\mbox{\texttt{ in}}  & {\em r\+Buffer} & Address where the read data needs to be stored\\
+\hline
+\mbox{\texttt{ in}}  & {\em r\+Length} & Length of the data that has to be read \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_i2_c_8h_a20cf9a3b52c6a0e5b84b6e798c8dcb11}\label{_i2_c_8h_a20cf9a3b52c6a0e5b84b6e798c8dcb11}} 
+\index{I2C.h@{I2C.h}!IIC\_Reset@{IIC\_Reset}}
+\index{IIC\_Reset@{IIC\_Reset}!I2C.h@{I2C.h}}
+\doxysubsubsection{\texorpdfstring{IIC\_Reset()}{IIC\_Reset()}}
+{\footnotesize\ttfamily void I\+I\+C\+\_\+\+Reset (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Resets the I2C interface. 
+
+\begin{DoxyNote}{Note}
+Normally not needed, just in case
+\end{DoxyNote}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em void} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_i2_c_8h_a47431e985fd340e0e1d8a112bfe9ddcc}\label{_i2_c_8h_a47431e985fd340e0e1d8a112bfe9ddcc}} 
+\index{I2C.h@{I2C.h}!IIC\_WriteBuffer@{IIC\_WriteBuffer}}
+\index{IIC\_WriteBuffer@{IIC\_WriteBuffer}!I2C.h@{I2C.h}}
+\doxysubsubsection{\texorpdfstring{IIC\_WriteBuffer()}{IIC\_WriteBuffer()}}
+{\footnotesize\ttfamily bool I\+I\+C\+\_\+\+Write\+Buffer (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{iic\+Address,  }\item[{uint8\+\_\+t $\ast$}]{w\+Buffer,  }\item[{uint8\+\_\+t}]{w\+Length }\end{DoxyParamCaption})}
+
+
+
+I2C write functionality. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em iic\+Address} & 10bit I2C address\\
+\hline
+\mbox{\texttt{ in}}  & {\em w\+Buffer} & Address where the data is that needs to be written\\
+\hline
+\mbox{\texttt{ in}}  & {\em w\+Length} & Length of the data that has to be written \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_i2_c_8h_a06104f2b83b9e221737ba5a75c6edc4c}\label{_i2_c_8h_a06104f2b83b9e221737ba5a75c6edc4c}} 
+\index{I2C.h@{I2C.h}!IIC\_WriteReadBuffer@{IIC\_WriteReadBuffer}}
+\index{IIC\_WriteReadBuffer@{IIC\_WriteReadBuffer}!I2C.h@{I2C.h}}
+\doxysubsubsection{\texorpdfstring{IIC\_WriteReadBuffer()}{IIC\_WriteReadBuffer()}}
+{\footnotesize\ttfamily bool I\+I\+C\+\_\+\+Write\+Read\+Buffer (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{iic\+Address,  }\item[{uint8\+\_\+t $\ast$}]{w\+Buffer,  }\item[{uint8\+\_\+t}]{w\+Length,  }\item[{uint8\+\_\+t $\ast$}]{r\+Buffer,  }\item[{uint8\+\_\+t}]{r\+Length }\end{DoxyParamCaption})}
+
+
+
+I2C read/write functionality, to read and write at the same time. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em iic\+Address} & 10bit I2C address\\
+\hline
+\mbox{\texttt{ in}}  & {\em reg\+Command} & Address that needs to be read\\
+\hline
+\mbox{\texttt{ in}}  & {\em r\+Buffer} & Address where the read data needs to be stored\\
+\hline
+\mbox{\texttt{ in}}  & {\em r\+Length} & Length of the data that has to be read \\
+\hline
+\end{DoxyParams}
