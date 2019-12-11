@@ -53,6 +53,10 @@ var NAVTREEINDEX0 =
 "globals_func.html":[2,1,1],
 "globals_vars.html":[2,1,2],
 "index.html":[],
+"index.html":[0],
+"index.html#autotoc_md0":[0,0],
+"index.html#autotoc_md1":[0,0,0],
+"index.html#autotoc_md2":[0,0,1],
 "main_8c.html":[2,0,0,1,0],
 "main_8c.html#a840291bc02cba5474a4cb46a9b9566fe":[2,0,0,1,0,2],
 "main_8c.html#a87a8c0b4406c4c1dcd07a44faad32cc3":[2,0,0,1,0,0],
@@ -60,8 +64,6 @@ var NAVTREEINDEX0 =
 "main_8c.html#ab5e09814056d617c521549e542639b7e":[2,0,0,1,0,3],
 "main_8c.html#af3c040fe31e69be32855715a75e0cda4":[2,0,0,1,0,1],
 "main_8c_source.html":[2,0,0,1,0],
-"md__embedded_1__a_m_g8833__temp__sensor_documentation.html":[0],
-"md__embedded_1__a_m_g8833__temp__sensor_documentation.html#autotoc_md1":[0,0],
 "pages.html":[],
 "todo.html":[1]
 };

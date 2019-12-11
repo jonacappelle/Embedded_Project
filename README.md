@@ -41,9 +41,8 @@
 - Jona Cappelle
 - Thomas Feys
 
-## Energy consumption
+## Energy consumption EFM32HG
 
-### Happy Gecko (EFM32HG)
 [Datasheet](https://www.silabs.com/documents/public/data-sheets/efm32hg-datasheet.pdf)
 
 | Energy Mode   |Current        |
