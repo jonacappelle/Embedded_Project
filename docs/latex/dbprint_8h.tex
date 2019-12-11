@@ -1,0 +1,340 @@
+\hypertarget{dbprint_8h}{}\doxysection{Embedded\+\_\+1\+\_\+\+A\+M\+G8833\+\_\+\+Temp\+\_\+\+Sensor/dbprint/dbprint.h File Reference}
+\label{dbprint_8h}\index{Embedded\_1\_AMG8833\_Temp\_Sensor/dbprint/dbprint.h@{Embedded\_1\_AMG8833\_Temp\_Sensor/dbprint/dbprint.h}}
+
+
+Homebrew println/printf replacement \char`\"{}\+De\+Bug\+Print\char`\"{}.  
+
+
+{\ttfamily \#include $<$stdint.\+h$>$}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}em\+\_\+usart.\+h\char`\"{}}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{dbprint_8h_ad5855358e9d9ed029cc2980d7f80dddb}{D\+B\+P\+R\+I\+N\+T\+\_\+\+B\+U\+F\+F\+E\+R\+\_\+\+S\+I\+ZE}}~80
+\end{DoxyCompactItemize}
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef enum \mbox{\hyperlink{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607}{dbprint\+\_\+colors}} \mbox{\hyperlink{dbprint_8h_a1ab19a6b15298e2a0bb7ba320cf8b540}{dbprint\+\_\+color\+\_\+t}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607}{dbprint\+\_\+colors}} \{ \newline
+\mbox{\hyperlink{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607af80f9a890089d211842d59625e561f88}{R\+ED}}, 
+\mbox{\hyperlink{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607aa60bd322f93178d68184e30e162571ca}{G\+R\+E\+EN}}, 
+\mbox{\hyperlink{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607a35d6719cb4d7577c031b3d79057a1b79}{B\+L\+UE}}, 
+\mbox{\hyperlink{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607aafe71cad474c15ce63b300c470eef8cc}{C\+Y\+AN}}, 
+\newline
+\mbox{\hyperlink{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607a56926c820ad72d0977e7ee44d9916e62}{M\+A\+G\+E\+N\+TA}}, 
+\mbox{\hyperlink{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607ae735a848bf82163a19236ead1c3ef2d2}{Y\+E\+L\+L\+OW}}, 
+\mbox{\hyperlink{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607a893c6b76f1c0df789783a2d1405d7dba}{D\+E\+F\+A\+U\+L\+T\+\_\+\+C\+O\+L\+OR}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{dbprint_8h_ab517cdef3b6920aa62bb748109212433}{dbprint\+\_\+\+I\+N\+IT}} (U\+S\+A\+R\+T\+\_\+\+Type\+Def $\ast$pointer, uint8\+\_\+t location, bool vcom, bool interrupts)
+\item 
+void \mbox{\hyperlink{dbprint_8h_a653b977893c617449265db916e47aea2}{db\+Alert}} (void)
+\item 
+void \mbox{\hyperlink{dbprint_8h_aaf486c0dc2992930991d73d2d4240abb}{db\+Clear}} (void)
+\item 
+void \mbox{\hyperlink{dbprint_8h_a48c1f5d07dde14219473ff6a89a3f7ba}{dbprint}} (char $\ast$message)
+\item 
+void \mbox{\hyperlink{dbprint_8h_a5e059a469cca8341eb0a84e5c352f518}{dbprintln}} (char $\ast$message)
+\item 
+void \mbox{\hyperlink{dbprint_8h_a4e4e18f85e358d8cc702ea8c2f190503}{dbprint\+Int}} (int32\+\_\+t value)
+\item 
+void \mbox{\hyperlink{dbprint_8h_a05cd4086fbb7c752337b52c49c31d16b}{dbprintln\+Int}} (int32\+\_\+t value)
+\item 
+void \mbox{\hyperlink{dbprint_8h_a1a7a7976e72dd2dd28014a9179d56aaf}{dbprint\+Int\+\_\+hex}} (int32\+\_\+t value)
+\item 
+void \mbox{\hyperlink{dbprint_8h_a3c5b33a971b5359958e66321165cb496}{dbprintln\+Int\+\_\+hex}} (int32\+\_\+t value)
+\item 
+void \mbox{\hyperlink{dbprint_8h_ad6b8e79e52a31b01f5816cdd62fb1746}{dbprint\+\_\+color}} (char $\ast$message, \mbox{\hyperlink{dbprint_8h_a1ab19a6b15298e2a0bb7ba320cf8b540}{dbprint\+\_\+color\+\_\+t}} color)
+\item 
+void \mbox{\hyperlink{dbprint_8h_aeac6ad47896a658b0753fa0ef8040e6c}{dbprintln\+\_\+color}} (char $\ast$message, \mbox{\hyperlink{dbprint_8h_a1ab19a6b15298e2a0bb7ba320cf8b540}{dbprint\+\_\+color\+\_\+t}} color)
+\item 
+void \mbox{\hyperlink{dbprint_8h_acb5d4e1082c625ad85d835d4e053d4d8}{dbinfo}} (char $\ast$message)
+\item 
+void \mbox{\hyperlink{dbprint_8h_a73de59bf0a689a086681070783a82df3}{dbwarn}} (char $\ast$message)
+\item 
+void \mbox{\hyperlink{dbprint_8h_afbbbe6e04352a6b56d1d8a053ec4f941}{dbcrit}} (char $\ast$message)
+\item 
+void \mbox{\hyperlink{dbprint_8h_a0511ddad2e00a8187d5449b15de7eb4f}{dbinfo\+Int}} (char $\ast$message1, int32\+\_\+t value, char $\ast$message2)
+\item 
+void \mbox{\hyperlink{dbprint_8h_ada27783fef89d9c9af4976baab87c477}{dbwarn\+Int}} (char $\ast$message1, int32\+\_\+t value, char $\ast$message2)
+\item 
+void \mbox{\hyperlink{dbprint_8h_ac127caf50634ea902e2ae98d038feec8}{dbcrit\+Int}} (char $\ast$message1, int32\+\_\+t value, char $\ast$message2)
+\item 
+void \mbox{\hyperlink{dbprint_8h_af175e2f9858ee73556d78256d72e6823}{dbinfo\+Int\+\_\+hex}} (char $\ast$message1, int32\+\_\+t value, char $\ast$message2)
+\item 
+void \mbox{\hyperlink{dbprint_8h_ab404cefa28fc63ac33567c5de1e0c5e1}{dbwarn\+Int\+\_\+hex}} (char $\ast$message1, int32\+\_\+t value, char $\ast$message2)
+\item 
+void \mbox{\hyperlink{dbprint_8h_a68c0b5602768fe1b3b115818d9d19517}{dbcrit\+Int\+\_\+hex}} (char $\ast$message1, int32\+\_\+t value, char $\ast$message2)
+\item 
+char \mbox{\hyperlink{dbprint_8h_a91119ee9f494f8619f186fefe0e43d2b}{db\+Read\+Char}} (void)
+\item 
+uint8\+\_\+t \mbox{\hyperlink{dbprint_8h_afb3acf31bedd0a65df5cd2fe634e6a21}{db\+Read\+Int}} (void)
+\item 
+void \mbox{\hyperlink{dbprint_8h_a82b12a746031f077dd36e7b3777631a4}{db\+Read\+Line}} (char $\ast$buf)
+\item 
+bool \mbox{\hyperlink{dbprint_8h_a2438c70ed863bee3348de2d4fc525031}{db\+Get\+\_\+\+R\+Xstatus}} (void)
+\item 
+void \mbox{\hyperlink{dbprint_8h_a8c47d4f12d612d50a48f88079b9788b7}{db\+Get\+\_\+\+R\+Xbuffer}} (char $\ast$buf)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Homebrew println/printf replacement \char`\"{}\+De\+Bug\+Print\char`\"{}. 
+
+\begin{DoxyVersion}{Version}
+6.\+2 
+\end{DoxyVersion}
+\begin{DoxyAuthor}{Author}
+Brecht Van Eeckhoudt
+\end{DoxyAuthor}
+\DoxyHorRuler
+\hypertarget{debug__dbprint_8h_License}{}\doxysubsection{License}\label{debug__dbprint_8h_License}
+{\bfseries{Copyright (C) 2019 -\/ Brecht Van Eeckhoudt}}
+
+This program is free software\+: you can redistribute it and/or modify it under the terms of the {\bfseries{G\+NU General Public License}} as published by the Free Software Foundation, either {\bfseries{version 3}} of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but W\+I\+T\+H\+O\+UT A\+NY W\+A\+R\+R\+A\+N\+TY; without even the implied warranty of M\+E\+R\+C\+H\+A\+N\+T\+A\+B\+I\+L\+I\+TY or F\+I\+T\+N\+E\+SS F\+OR A P\+A\+R\+T\+I\+C\+U\+L\+AR P\+U\+R\+P\+O\+SE. See the G\+NU General Public License for more details.
+
+{\itshape A copy of the G\+NU General Public License can be found in the {\ttfamily L\+I\+C\+E\+N\+SE} file along with this source code.}
+
+~\newline
+ Some methods also use code obtained from examples from \href{https://github.com/SiliconLabs/peripheral_examples}{\texttt{ Silicon Labs\textquotesingle{} Git\+Hub}}. These sections are licensed under the Silabs License Agreement. See the file \char`\"{}\+Silabs\+\_\+\+License\+\_\+\+Agreement.\+txt\char`\"{} for details. Before using this software for any purpose, you must agree to the terms of that agreement. 
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{dbprint_8h_ad5855358e9d9ed029cc2980d7f80dddb}\label{dbprint_8h_ad5855358e9d9ed029cc2980d7f80dddb}} 
+\index{dbprint.h@{dbprint.h}!DBPRINT\_BUFFER\_SIZE@{DBPRINT\_BUFFER\_SIZE}}
+\index{DBPRINT\_BUFFER\_SIZE@{DBPRINT\_BUFFER\_SIZE}!dbprint.h@{dbprint.h}}
+\doxysubsubsection{\texorpdfstring{DBPRINT\_BUFFER\_SIZE}{DBPRINT\_BUFFER\_SIZE}}
+{\footnotesize\ttfamily \#define D\+B\+P\+R\+I\+N\+T\+\_\+\+B\+U\+F\+F\+E\+R\+\_\+\+S\+I\+ZE~80}
+
+Public definition to configure the buffer size. 
+
+Definition at line 48 of file dbprint.\+h.
+
+
+
+\doxysubsection{Typedef Documentation}
+\mbox{\Hypertarget{dbprint_8h_a1ab19a6b15298e2a0bb7ba320cf8b540}\label{dbprint_8h_a1ab19a6b15298e2a0bb7ba320cf8b540}} 
+\index{dbprint.h@{dbprint.h}!dbprint\_color\_t@{dbprint\_color\_t}}
+\index{dbprint\_color\_t@{dbprint\_color\_t}!dbprint.h@{dbprint.h}}
+\doxysubsubsection{\texorpdfstring{dbprint\_color\_t}{dbprint\_color\_t}}
+{\footnotesize\ttfamily typedef enum \mbox{\hyperlink{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607}{dbprint\+\_\+colors}}  \mbox{\hyperlink{dbprint_8h_a1ab19a6b15298e2a0bb7ba320cf8b540}{dbprint\+\_\+color\+\_\+t}}}
+
+Enum type for the color selection. 
+
+\doxysubsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607}\label{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607}} 
+\index{dbprint.h@{dbprint.h}!dbprint\_colors@{dbprint\_colors}}
+\index{dbprint\_colors@{dbprint\_colors}!dbprint.h@{dbprint.h}}
+\doxysubsubsection{\texorpdfstring{dbprint\_colors}{dbprint\_colors}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607}{dbprint\+\_\+colors}}}
+
+Enum type for the color selection. \begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{RED@{RED}!dbprint.h@{dbprint.h}}\index{dbprint.h@{dbprint.h}!RED@{RED}}}\mbox{\Hypertarget{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607af80f9a890089d211842d59625e561f88}\label{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607af80f9a890089d211842d59625e561f88}} 
+R\+ED&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GREEN@{GREEN}!dbprint.h@{dbprint.h}}\index{dbprint.h@{dbprint.h}!GREEN@{GREEN}}}\mbox{\Hypertarget{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607aa60bd322f93178d68184e30e162571ca}\label{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607aa60bd322f93178d68184e30e162571ca}} 
+G\+R\+E\+EN&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{BLUE@{BLUE}!dbprint.h@{dbprint.h}}\index{dbprint.h@{dbprint.h}!BLUE@{BLUE}}}\mbox{\Hypertarget{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607a35d6719cb4d7577c031b3d79057a1b79}\label{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607a35d6719cb4d7577c031b3d79057a1b79}} 
+B\+L\+UE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{CYAN@{CYAN}!dbprint.h@{dbprint.h}}\index{dbprint.h@{dbprint.h}!CYAN@{CYAN}}}\mbox{\Hypertarget{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607aafe71cad474c15ce63b300c470eef8cc}\label{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607aafe71cad474c15ce63b300c470eef8cc}} 
+C\+Y\+AN&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MAGENTA@{MAGENTA}!dbprint.h@{dbprint.h}}\index{dbprint.h@{dbprint.h}!MAGENTA@{MAGENTA}}}\mbox{\Hypertarget{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607a56926c820ad72d0977e7ee44d9916e62}\label{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607a56926c820ad72d0977e7ee44d9916e62}} 
+M\+A\+G\+E\+N\+TA&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{YELLOW@{YELLOW}!dbprint.h@{dbprint.h}}\index{dbprint.h@{dbprint.h}!YELLOW@{YELLOW}}}\mbox{\Hypertarget{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607ae735a848bf82163a19236ead1c3ef2d2}\label{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607ae735a848bf82163a19236ead1c3ef2d2}} 
+Y\+E\+L\+L\+OW&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{DEFAULT\_COLOR@{DEFAULT\_COLOR}!dbprint.h@{dbprint.h}}\index{dbprint.h@{dbprint.h}!DEFAULT\_COLOR@{DEFAULT\_COLOR}}}\mbox{\Hypertarget{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607a893c6b76f1c0df789783a2d1405d7dba}\label{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607a893c6b76f1c0df789783a2d1405d7dba}} 
+D\+E\+F\+A\+U\+L\+T\+\_\+\+C\+O\+L\+OR&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+Definition at line 52 of file dbprint.\+h.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{53 \{}
+\DoxyCodeLine{54     \mbox{\hyperlink{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607af80f9a890089d211842d59625e561f88}{RED}},}
+\DoxyCodeLine{55     \mbox{\hyperlink{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607aa60bd322f93178d68184e30e162571ca}{GREEN}},}
+\DoxyCodeLine{56     \mbox{\hyperlink{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607a35d6719cb4d7577c031b3d79057a1b79}{BLUE}},}
+\DoxyCodeLine{57     \mbox{\hyperlink{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607aafe71cad474c15ce63b300c470eef8cc}{CYAN}},}
+\DoxyCodeLine{58     \mbox{\hyperlink{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607a56926c820ad72d0977e7ee44d9916e62}{MAGENTA}},}
+\DoxyCodeLine{59     \mbox{\hyperlink{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607ae735a848bf82163a19236ead1c3ef2d2}{YELLOW}},}
+\DoxyCodeLine{60     \mbox{\hyperlink{dbprint_8h_a30d5293f29342e2bf8b795eb96a61607a893c6b76f1c0df789783a2d1405d7dba}{DEFAULT\_COLOR}}}
+\DoxyCodeLine{61 \} \mbox{\hyperlink{dbprint_8h_a1ab19a6b15298e2a0bb7ba320cf8b540}{dbprint\_color\_t}};}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{dbprint_8h_a653b977893c617449265db916e47aea2}\label{dbprint_8h_a653b977893c617449265db916e47aea2}} 
+\index{dbprint.h@{dbprint.h}!dbAlert@{dbAlert}}
+\index{dbAlert@{dbAlert}!dbprint.h@{dbprint.h}}
+\doxysubsubsection{\texorpdfstring{dbAlert()}{dbAlert()}}
+{\footnotesize\ttfamily void db\+Alert (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dbprint_8h_aaf486c0dc2992930991d73d2d4240abb}\label{dbprint_8h_aaf486c0dc2992930991d73d2d4240abb}} 
+\index{dbprint.h@{dbprint.h}!dbClear@{dbClear}}
+\index{dbClear@{dbClear}!dbprint.h@{dbprint.h}}
+\doxysubsubsection{\texorpdfstring{dbClear()}{dbClear()}}
+{\footnotesize\ttfamily void db\+Clear (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dbprint_8h_afbbbe6e04352a6b56d1d8a053ec4f941}\label{dbprint_8h_afbbbe6e04352a6b56d1d8a053ec4f941}} 
+\index{dbprint.h@{dbprint.h}!dbcrit@{dbcrit}}
+\index{dbcrit@{dbcrit}!dbprint.h@{dbprint.h}}
+\doxysubsubsection{\texorpdfstring{dbcrit()}{dbcrit()}}
+{\footnotesize\ttfamily void dbcrit (\begin{DoxyParamCaption}\item[{char $\ast$}]{message }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dbprint_8h_ac127caf50634ea902e2ae98d038feec8}\label{dbprint_8h_ac127caf50634ea902e2ae98d038feec8}} 
+\index{dbprint.h@{dbprint.h}!dbcritInt@{dbcritInt}}
+\index{dbcritInt@{dbcritInt}!dbprint.h@{dbprint.h}}
+\doxysubsubsection{\texorpdfstring{dbcritInt()}{dbcritInt()}}
+{\footnotesize\ttfamily void dbcrit\+Int (\begin{DoxyParamCaption}\item[{char $\ast$}]{message1,  }\item[{int32\+\_\+t}]{value,  }\item[{char $\ast$}]{message2 }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dbprint_8h_a68c0b5602768fe1b3b115818d9d19517}\label{dbprint_8h_a68c0b5602768fe1b3b115818d9d19517}} 
+\index{dbprint.h@{dbprint.h}!dbcritInt\_hex@{dbcritInt\_hex}}
+\index{dbcritInt\_hex@{dbcritInt\_hex}!dbprint.h@{dbprint.h}}
+\doxysubsubsection{\texorpdfstring{dbcritInt\_hex()}{dbcritInt\_hex()}}
+{\footnotesize\ttfamily void dbcrit\+Int\+\_\+hex (\begin{DoxyParamCaption}\item[{char $\ast$}]{message1,  }\item[{int32\+\_\+t}]{value,  }\item[{char $\ast$}]{message2 }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dbprint_8h_a8c47d4f12d612d50a48f88079b9788b7}\label{dbprint_8h_a8c47d4f12d612d50a48f88079b9788b7}} 
+\index{dbprint.h@{dbprint.h}!dbGet\_RXbuffer@{dbGet\_RXbuffer}}
+\index{dbGet\_RXbuffer@{dbGet\_RXbuffer}!dbprint.h@{dbprint.h}}
+\doxysubsubsection{\texorpdfstring{dbGet\_RXbuffer()}{dbGet\_RXbuffer()}}
+{\footnotesize\ttfamily void db\+Get\+\_\+\+R\+Xbuffer (\begin{DoxyParamCaption}\item[{char $\ast$}]{buf }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dbprint_8h_a2438c70ed863bee3348de2d4fc525031}\label{dbprint_8h_a2438c70ed863bee3348de2d4fc525031}} 
+\index{dbprint.h@{dbprint.h}!dbGet\_RXstatus@{dbGet\_RXstatus}}
+\index{dbGet\_RXstatus@{dbGet\_RXstatus}!dbprint.h@{dbprint.h}}
+\doxysubsubsection{\texorpdfstring{dbGet\_RXstatus()}{dbGet\_RXstatus()}}
+{\footnotesize\ttfamily bool db\+Get\+\_\+\+R\+Xstatus (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dbprint_8h_acb5d4e1082c625ad85d835d4e053d4d8}\label{dbprint_8h_acb5d4e1082c625ad85d835d4e053d4d8}} 
+\index{dbprint.h@{dbprint.h}!dbinfo@{dbinfo}}
+\index{dbinfo@{dbinfo}!dbprint.h@{dbprint.h}}
+\doxysubsubsection{\texorpdfstring{dbinfo()}{dbinfo()}}
+{\footnotesize\ttfamily void dbinfo (\begin{DoxyParamCaption}\item[{char $\ast$}]{message }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dbprint_8h_a0511ddad2e00a8187d5449b15de7eb4f}\label{dbprint_8h_a0511ddad2e00a8187d5449b15de7eb4f}} 
+\index{dbprint.h@{dbprint.h}!dbinfoInt@{dbinfoInt}}
+\index{dbinfoInt@{dbinfoInt}!dbprint.h@{dbprint.h}}
+\doxysubsubsection{\texorpdfstring{dbinfoInt()}{dbinfoInt()}}
+{\footnotesize\ttfamily void dbinfo\+Int (\begin{DoxyParamCaption}\item[{char $\ast$}]{message1,  }\item[{int32\+\_\+t}]{value,  }\item[{char $\ast$}]{message2 }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dbprint_8h_af175e2f9858ee73556d78256d72e6823}\label{dbprint_8h_af175e2f9858ee73556d78256d72e6823}} 
+\index{dbprint.h@{dbprint.h}!dbinfoInt\_hex@{dbinfoInt\_hex}}
+\index{dbinfoInt\_hex@{dbinfoInt\_hex}!dbprint.h@{dbprint.h}}
+\doxysubsubsection{\texorpdfstring{dbinfoInt\_hex()}{dbinfoInt\_hex()}}
+{\footnotesize\ttfamily void dbinfo\+Int\+\_\+hex (\begin{DoxyParamCaption}\item[{char $\ast$}]{message1,  }\item[{int32\+\_\+t}]{value,  }\item[{char $\ast$}]{message2 }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dbprint_8h_a48c1f5d07dde14219473ff6a89a3f7ba}\label{dbprint_8h_a48c1f5d07dde14219473ff6a89a3f7ba}} 
+\index{dbprint.h@{dbprint.h}!dbprint@{dbprint}}
+\index{dbprint@{dbprint}!dbprint.h@{dbprint.h}}
+\doxysubsubsection{\texorpdfstring{dbprint()}{dbprint()}}
+{\footnotesize\ttfamily void dbprint (\begin{DoxyParamCaption}\item[{char $\ast$}]{message }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dbprint_8h_ad6b8e79e52a31b01f5816cdd62fb1746}\label{dbprint_8h_ad6b8e79e52a31b01f5816cdd62fb1746}} 
+\index{dbprint.h@{dbprint.h}!dbprint\_color@{dbprint\_color}}
+\index{dbprint\_color@{dbprint\_color}!dbprint.h@{dbprint.h}}
+\doxysubsubsection{\texorpdfstring{dbprint\_color()}{dbprint\_color()}}
+{\footnotesize\ttfamily void dbprint\+\_\+color (\begin{DoxyParamCaption}\item[{char $\ast$}]{message,  }\item[{\mbox{\hyperlink{dbprint_8h_a1ab19a6b15298e2a0bb7ba320cf8b540}{dbprint\+\_\+color\+\_\+t}}}]{color }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dbprint_8h_ab517cdef3b6920aa62bb748109212433}\label{dbprint_8h_ab517cdef3b6920aa62bb748109212433}} 
+\index{dbprint.h@{dbprint.h}!dbprint\_INIT@{dbprint\_INIT}}
+\index{dbprint\_INIT@{dbprint\_INIT}!dbprint.h@{dbprint.h}}
+\doxysubsubsection{\texorpdfstring{dbprint\_INIT()}{dbprint\_INIT()}}
+{\footnotesize\ttfamily void dbprint\+\_\+\+I\+N\+IT (\begin{DoxyParamCaption}\item[{U\+S\+A\+R\+T\+\_\+\+Type\+Def $\ast$}]{pointer,  }\item[{uint8\+\_\+t}]{location,  }\item[{bool}]{vcom,  }\item[{bool}]{interrupts }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dbprint_8h_a4e4e18f85e358d8cc702ea8c2f190503}\label{dbprint_8h_a4e4e18f85e358d8cc702ea8c2f190503}} 
+\index{dbprint.h@{dbprint.h}!dbprintInt@{dbprintInt}}
+\index{dbprintInt@{dbprintInt}!dbprint.h@{dbprint.h}}
+\doxysubsubsection{\texorpdfstring{dbprintInt()}{dbprintInt()}}
+{\footnotesize\ttfamily void dbprint\+Int (\begin{DoxyParamCaption}\item[{int32\+\_\+t}]{value }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dbprint_8h_a1a7a7976e72dd2dd28014a9179d56aaf}\label{dbprint_8h_a1a7a7976e72dd2dd28014a9179d56aaf}} 
+\index{dbprint.h@{dbprint.h}!dbprintInt\_hex@{dbprintInt\_hex}}
+\index{dbprintInt\_hex@{dbprintInt\_hex}!dbprint.h@{dbprint.h}}
+\doxysubsubsection{\texorpdfstring{dbprintInt\_hex()}{dbprintInt\_hex()}}
+{\footnotesize\ttfamily void dbprint\+Int\+\_\+hex (\begin{DoxyParamCaption}\item[{int32\+\_\+t}]{value }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dbprint_8h_a5e059a469cca8341eb0a84e5c352f518}\label{dbprint_8h_a5e059a469cca8341eb0a84e5c352f518}} 
+\index{dbprint.h@{dbprint.h}!dbprintln@{dbprintln}}
+\index{dbprintln@{dbprintln}!dbprint.h@{dbprint.h}}
+\doxysubsubsection{\texorpdfstring{dbprintln()}{dbprintln()}}
+{\footnotesize\ttfamily void dbprintln (\begin{DoxyParamCaption}\item[{char $\ast$}]{message }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dbprint_8h_aeac6ad47896a658b0753fa0ef8040e6c}\label{dbprint_8h_aeac6ad47896a658b0753fa0ef8040e6c}} 
+\index{dbprint.h@{dbprint.h}!dbprintln\_color@{dbprintln\_color}}
+\index{dbprintln\_color@{dbprintln\_color}!dbprint.h@{dbprint.h}}
+\doxysubsubsection{\texorpdfstring{dbprintln\_color()}{dbprintln\_color()}}
+{\footnotesize\ttfamily void dbprintln\+\_\+color (\begin{DoxyParamCaption}\item[{char $\ast$}]{message,  }\item[{\mbox{\hyperlink{dbprint_8h_a1ab19a6b15298e2a0bb7ba320cf8b540}{dbprint\+\_\+color\+\_\+t}}}]{color }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dbprint_8h_a05cd4086fbb7c752337b52c49c31d16b}\label{dbprint_8h_a05cd4086fbb7c752337b52c49c31d16b}} 
+\index{dbprint.h@{dbprint.h}!dbprintlnInt@{dbprintlnInt}}
+\index{dbprintlnInt@{dbprintlnInt}!dbprint.h@{dbprint.h}}
+\doxysubsubsection{\texorpdfstring{dbprintlnInt()}{dbprintlnInt()}}
+{\footnotesize\ttfamily void dbprintln\+Int (\begin{DoxyParamCaption}\item[{int32\+\_\+t}]{value }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dbprint_8h_a3c5b33a971b5359958e66321165cb496}\label{dbprint_8h_a3c5b33a971b5359958e66321165cb496}} 
+\index{dbprint.h@{dbprint.h}!dbprintlnInt\_hex@{dbprintlnInt\_hex}}
+\index{dbprintlnInt\_hex@{dbprintlnInt\_hex}!dbprint.h@{dbprint.h}}
+\doxysubsubsection{\texorpdfstring{dbprintlnInt\_hex()}{dbprintlnInt\_hex()}}
+{\footnotesize\ttfamily void dbprintln\+Int\+\_\+hex (\begin{DoxyParamCaption}\item[{int32\+\_\+t}]{value }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dbprint_8h_a91119ee9f494f8619f186fefe0e43d2b}\label{dbprint_8h_a91119ee9f494f8619f186fefe0e43d2b}} 
+\index{dbprint.h@{dbprint.h}!dbReadChar@{dbReadChar}}
+\index{dbReadChar@{dbReadChar}!dbprint.h@{dbprint.h}}
+\doxysubsubsection{\texorpdfstring{dbReadChar()}{dbReadChar()}}
+{\footnotesize\ttfamily char db\+Read\+Char (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dbprint_8h_afb3acf31bedd0a65df5cd2fe634e6a21}\label{dbprint_8h_afb3acf31bedd0a65df5cd2fe634e6a21}} 
+\index{dbprint.h@{dbprint.h}!dbReadInt@{dbReadInt}}
+\index{dbReadInt@{dbReadInt}!dbprint.h@{dbprint.h}}
+\doxysubsubsection{\texorpdfstring{dbReadInt()}{dbReadInt()}}
+{\footnotesize\ttfamily uint8\+\_\+t db\+Read\+Int (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dbprint_8h_a82b12a746031f077dd36e7b3777631a4}\label{dbprint_8h_a82b12a746031f077dd36e7b3777631a4}} 
+\index{dbprint.h@{dbprint.h}!dbReadLine@{dbReadLine}}
+\index{dbReadLine@{dbReadLine}!dbprint.h@{dbprint.h}}
+\doxysubsubsection{\texorpdfstring{dbReadLine()}{dbReadLine()}}
+{\footnotesize\ttfamily void db\+Read\+Line (\begin{DoxyParamCaption}\item[{char $\ast$}]{buf }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dbprint_8h_a73de59bf0a689a086681070783a82df3}\label{dbprint_8h_a73de59bf0a689a086681070783a82df3}} 
+\index{dbprint.h@{dbprint.h}!dbwarn@{dbwarn}}
+\index{dbwarn@{dbwarn}!dbprint.h@{dbprint.h}}
+\doxysubsubsection{\texorpdfstring{dbwarn()}{dbwarn()}}
+{\footnotesize\ttfamily void dbwarn (\begin{DoxyParamCaption}\item[{char $\ast$}]{message }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dbprint_8h_ada27783fef89d9c9af4976baab87c477}\label{dbprint_8h_ada27783fef89d9c9af4976baab87c477}} 
+\index{dbprint.h@{dbprint.h}!dbwarnInt@{dbwarnInt}}
+\index{dbwarnInt@{dbwarnInt}!dbprint.h@{dbprint.h}}
+\doxysubsubsection{\texorpdfstring{dbwarnInt()}{dbwarnInt()}}
+{\footnotesize\ttfamily void dbwarn\+Int (\begin{DoxyParamCaption}\item[{char $\ast$}]{message1,  }\item[{int32\+\_\+t}]{value,  }\item[{char $\ast$}]{message2 }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dbprint_8h_ab404cefa28fc63ac33567c5de1e0c5e1}\label{dbprint_8h_ab404cefa28fc63ac33567c5de1e0c5e1}} 
+\index{dbprint.h@{dbprint.h}!dbwarnInt\_hex@{dbwarnInt\_hex}}
+\index{dbwarnInt\_hex@{dbwarnInt\_hex}!dbprint.h@{dbprint.h}}
+\doxysubsubsection{\texorpdfstring{dbwarnInt\_hex()}{dbwarnInt\_hex()}}
+{\footnotesize\ttfamily void dbwarn\+Int\+\_\+hex (\begin{DoxyParamCaption}\item[{char $\ast$}]{message1,  }\item[{int32\+\_\+t}]{value,  }\item[{char $\ast$}]{message2 }\end{DoxyParamCaption})}
+

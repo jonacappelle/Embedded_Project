@@ -38,5 +38,18 @@
 - Jona Cappelle
 - Thomas Feys
 
+## Energy consumption
+
+### Happy Gecko (EFM32HG)
+[Datasheet](https://www.silabs.com/documents/public/data-sheets/efm32hg-datasheet.pdf)
+
+| Energy Mode   |Current        |
+| ------------- |:-------------:|
+| EM0           | 148 µA/MHz |
+| EM1           | 64 µA/MHz      |
+| EM2           | 0.9 µA      |
+| EM3           | 0.6 µA |
+| EM4           | 0.02 µA |
+
 
 
