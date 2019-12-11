@@ -1,17 +1,17 @@
 \babel@toc {dutch}{}
-\contentsline {section}{\numberline {1}Inleiding}{1}% 
-\contentsline {section}{\numberline {2}Sensor}{1}% 
-\contentsline {section}{\numberline {3}Systeem}{2}% 
-\contentsline {subsection}{\numberline {3.1}overzicht}{2}% 
-\contentsline {subsection}{\numberline {3.2}I2C}{4}% 
-\contentsline {section}{\numberline {4}Code}{4}% 
-\contentsline {subsection}{\numberline {4.1}Functionaliteiten}{4}% 
-\contentsline {subsection}{\numberline {4.2}Flow van de code}{4}% 
-\contentsline {section}{\numberline {5}Power consumptie}{4}% 
-\contentsline {subsection}{\numberline {5.1}Principe}{4}% 
-\contentsline {paragraph}{Sensor: }{4}% 
-\contentsline {paragraph}{Processor: }{6}% 
-\contentsline {subsection}{\numberline {5.2}Metingen}{6}% 
-\contentsline {paragraph}{Geen aanwezigheid: }{6}% 
-\contentsline {paragraph}{Aanwezigheid: }{6}% 
-\contentsline {section}{\numberline {6}Besluit }{6}% 
+\contentsline {section}{\numberline {1}Inleiding}{3}
+\contentsline {section}{\numberline {2}Sensor}{3}
+\contentsline {section}{\numberline {3}Systeem}{3}
+\contentsline {subsection}{\numberline {3.1}Overzicht}{3}
+\contentsline {subsection}{\numberline {3.2}I2C}{3}
+\contentsline {section}{\numberline {4}Code}{3}
+\contentsline {subsection}{\numberline {4.1}Functionaliteiten}{3}
+\contentsline {subsection}{\numberline {4.2}Flow van de code}{5}
+\contentsline {section}{\numberline {5}Power consumptie}{5}
+\contentsline {subsection}{\numberline {5.1}Principe}{5}
+\contentsline {paragraph}{Sensor: }{5}
+\contentsline {paragraph}{Processor: }{7}
+\contentsline {subsection}{\numberline {5.2}Metingen}{7}
+\contentsline {paragraph}{Geen aanwezigheid: }{7}
+\contentsline {paragraph}{Aanwezigheid: }{7}
+\contentsline {section}{\numberline {6}Besluit }{7}
