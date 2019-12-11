@@ -54,4 +54,11 @@
 | EM4           | 0.02 µA |
 
 
+## Energy consumption AMG8833
+
+| Energy Mode   |Current        |
+| ------------- |:-------------:|
+| Normal        | 4.5 mA        |
+| Stand-by      | 0.8 mA        |
+| Sleep         | 0.2 mA        |
 

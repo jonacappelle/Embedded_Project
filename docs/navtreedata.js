@@ -23,12 +23,7 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "Embedded AMG8833", "index.html", [
-    [ "Documentation", "index.html", [
-      [ "Team", "index.html#autotoc_md0", [
-        [ "Energy consumption EFM32HG", "index.html#autotoc_md1", null ],
-        [ "Energy consumption AMG8833", "index.html#autotoc_md2", null ]
-      ] ]
-    ] ],
+    [ "Documentation", "index.html", null ],
     [ "Todo List", "todo.html", null ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],

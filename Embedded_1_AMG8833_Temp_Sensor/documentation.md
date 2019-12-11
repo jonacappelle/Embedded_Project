@@ -1,6 +1,6 @@
 @mainpage Documentation
 
-# Team
+## Team
 - Jona Cappelle
 - Thomas Feys
 
