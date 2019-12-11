@@ -18,6 +18,9 @@
 
 ---
 
+## Doxygen Documentation
+[CODE](https://jonacappelle.github.io/Embedded_Project/index.html)
+
 ## Installation
 
 - All the `code` required to get started
