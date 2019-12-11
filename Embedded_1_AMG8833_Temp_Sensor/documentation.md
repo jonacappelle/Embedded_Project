@@ -17,6 +17,7 @@
 | EM4           | 0.02 µA |
 
 ## Energy consumption AMG8833
+[Datasheet](https://cdn-learn.adafruit.com/assets/assets/000/043/261/original/Grid-EYE_SPECIFICATIONS%28Reference%29.pdf?1498680225)
 
 | Energy Mode   |Current        |
 | ------------- |:-------------:|
