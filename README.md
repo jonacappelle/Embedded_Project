@@ -3,7 +3,9 @@
 > Embedded Programming of the AMG8833 IR Thermal Camera on the EFM32HG
 
 ![Target device](https://img.shields.io/badge/target%20device-EFM32HG322F64G-yellow.svg)
-
+![GitHub last commit](https://img.shields.io/github/last-commit/jonacappelle/Embedded_Project.svg)
+![GitHub Release Date](https://img.shields.io/github/release-date/jonacappelle/Embedded_Project.svg)
+![GitHub release](https://img.shields.io/github/release/jonacappelle/Embedded_Project.svg)
 
 
 ---
