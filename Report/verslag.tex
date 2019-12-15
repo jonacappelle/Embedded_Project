@@ -62,7 +62,7 @@ Om gemakkelijk met de sensor te werken werd er een library geschreven voor de AM
 
 \subsection{Flow van de code}
 \label{flowcode}
-Om het verbruik te minimaliseren wordt er maar om de 5 minuten gecontroleerd of er mensen aanwezig zijn. Indien er mensen aanwezig zijn wordt de sensor in stand-by gezet en zal hij uitgelezen worden telkens als de sensor een interrupt genereert. De sensor genereert een interrupt als er minimum 1 pixel boven een bepaalde threshold ligt. Dit zal maar om de 60 seconden gebeuren aangezien de sensor zijn waarden maar update om de 60 seconden in stand-by mode. Indien er geen mensen aanwezig zijn, dan worden de sensor en de processor in sleep gezet. Deze zullen uit sleep gehaald worden als de timer weer afgaat. Een volledig overzicht van de code is terug te vinden in figuur \ref{fig:flowchart}.
+Aangezien de sensor in stand-by een verbruik van 0.8~mA heeft wordt deze altijd in sleep gezet. De sensor wordt om de 5 minuten uit sleep gehaald om alle pixels uit te lezen. Hierna wordt ze weer in sleep gezet. Een volledig overzicht van de code is terug te vinden in figuur \ref{fig:flowchart}.
 
 \begin{figure}[!ht]
 	\centering
@@ -85,22 +85,11 @@ De sensor heeft 3 verschillende powermodes, deze zijn te zien in figuur \ref{fig
 
 \subsection{Principe}
 \paragraph{Sensor: }
-Door de methode toe te passen die besproken werd in section \ref{flowcode} wordt de power consumptie sterk verminderd. Wanneer er geen mensen aanwezig zijn, wordt de sensor in sleep gezet waardoor het verbruik 0.2 mAh is in plaats van 0.8 mAh in stand-by. Verder is het verbruik afhankelijk van hoe frequent er mensen in de wachtrij staan. In de berekeningen gaan we er van uit dat er enkel mensen aan het wachten zijn tussen 11u en 14u. In dit geval zal de sensor 3u per dag constant in stand-by staan aangezien er 3u lang mensen aanwezig zijn. Verder zal de sensor nog 21u in sleep staan. Dit levert een verbruik van: 
-
-
-\begin{equation}
-	\frac{3 \text{ h}\cdot 0.8 \text{ mAh} + 21 \text{ h}\cdot 0.2 \text{ mAh}}{24 \text{ h}} = 0.275 \text{ mAh}
-\end{equation}
-
-Indien deze methode niet toegepast wordt en we de sensor constant in stand-by laten staan is er een verbruik van 0.8 mAh. We bekomen dus een besparing van 65.625 \%. 
+Door de methode toe te passen die besproken werd in section \ref{flowcode} wordt de power consumptie sterk verminderd. In plaats van een verbruik van 0.8~mA verbruikt de sensor maar 0.2~mA aangezien hij bijna constant in sleep zit. Het verbruik zal een klein beetje hoger zijn aangezien de sensor voor een kleine tijd weer in normal en stand-by mode gezet wordt. 
 \paragraph{Processor: }
-
+De processor wordt enkel uit sleep gehaald als er een timerinterrupt afgaat. Hierdoor zit de processor voornamelijk in EM2 dit geeft een verbruik van 0.9~$\mu$A
 \subsection{Metingen}
-\paragraph{Geen aanwezigheid: }
-meting doen met geen aanwezigheid: sensor constant aan en uit
 
-\paragraph{Aanwezigheid: }
-meting doen met constant x waarden $>$ threshold
 
 
 \section{Besluit }
