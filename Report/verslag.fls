@@ -93,6 +93,20 @@ INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/rerunf
 INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/rerunfilecheck.sty
 INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/booktabs/booktabs.sty
 INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/booktabs/booktabs.sty
+INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/listings/listings.sty
+INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/listings/listings.sty
+INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/listings/lstmisc.sty
+INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/listings/lstmisc.sty
+INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/listings/listings.cfg
+INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/listings/listings.cfg
+INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/color.sty
+INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/color.sty
+INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
+INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
+INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/geometry/geometry.sty
+INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/geometry/geometry.sty
+INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/geometry/geometry.cfg
+INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/geometry/geometry.cfg
 INPUT verslag.aux
 INPUT verslag.aux
 OUTPUT verslag.aux
@@ -185,6 +199,24 @@ INPUT ./final_energy_consumption.png
 INPUT ./final_energy_consumption.png
 INPUT ./final_energy_consumption.png
 INPUT ./final_energy_consumption.png
+INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/listings/lstlang1.sty
+INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/listings/lstlang1.sty
+INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/listings/lstmisc.sty
+INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/listings/lstmisc.sty
+INPUT ../Embedded_1_AMG8833_Temp_Sensor/src/main.c
+INPUT ../Embedded_1_AMG8833_Temp_Sensor/src/main.c
+INPUT ../Embedded_1_AMG8833_Temp_Sensor/src/main.c
+INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmti10.tfm
+INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/omscmr.fd
+INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/omscmr.fd
+INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/omlcmr.fd
+INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/omlcmr.fd
+INPUT ../Embedded_1_AMG8833_Temp_Sensor/AMG8833/AMG8833.h
+INPUT ../Embedded_1_AMG8833_Temp_Sensor/AMG8833/AMG8833.h
+INPUT ../Embedded_1_AMG8833_Temp_Sensor/AMG8833/AMG8833.h
+INPUT ../Embedded_1_AMG8833_Temp_Sensor/AMG8833/AMG8833.c
+INPUT ../Embedded_1_AMG8833_Temp_Sensor/AMG8833/AMG8833.c
+INPUT ../Embedded_1_AMG8833_Temp_Sensor/AMG8833/AMG8833.c
 INPUT verslag.aux
 INPUT ./verslag.out
 INPUT ./verslag.out
@@ -210,5 +242,7 @@ INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
 INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb
+INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb
 INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb
 INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb

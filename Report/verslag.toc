@@ -4,12 +4,12 @@
 \contentsline {section}{\numberline {3}Systeem}{3}{section.3}
 \contentsline {subsection}{\numberline {3.1}Overzicht}{3}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}I2C}{3}{subsection.3.2}
-\contentsline {section}{\numberline {4}Code}{5}{section.4}
-\contentsline {subsection}{\numberline {4.1}Functionaliteiten}{5}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Flow van de code}{5}{subsection.4.2}
-\contentsline {section}{\numberline {5}Power consumptie}{6}{section.5}
-\contentsline {subsection}{\numberline {5.1}Sensor}{6}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Principe}{7}{subsection.5.2}
-\contentsline {paragraph}{Sensor: }{7}{section*.2}
+\contentsline {section}{\numberline {4}Code}{3}{section.4}
+\contentsline {subsection}{\numberline {4.1}Functionaliteiten}{3}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Flow van de code}{4}{subsection.4.2}
+\contentsline {section}{\numberline {5}Power consumptie}{4}{section.5}
+\contentsline {subsection}{\numberline {5.1}Sensor}{4}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Principe}{5}{subsection.5.2}
+\contentsline {paragraph}{Sensor: }{5}{section*.2}
 \contentsline {paragraph}{Processor: }{7}{section*.3}
 \contentsline {section}{\numberline {6}Besluit }{8}{section.6}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.28)  16 DEC 2019 09:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.28)  16 DEC 2019 10:24
 entering extended mode
 **"e:/GOOGLE_DRIVE/SCHOOL 2019-2020/embedded 1/Embedded_Project/Report/verslag.tex"
 ("e:/GOOGLE_DRIVE/SCHOOL 2019-2020/embedded 1/Embedded_Project/Report/verslag.tex"
@@ -447,36 +447,78 @@ Package: booktabs 2019/10/08 v1.6180339 publication quality tables
 \@thisruleclass=\count287
 \@lastruleclass=\count288
 \@thisrulewidth=\dimen177
-) (verslag.aux)
+) ("C:\Users\jonac\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count289
+\lst@gtempboxa=\box55
+\lst@token=\toks21
+\lst@length=\count290
+\lst@currlwidth=\dimen178
+\lst@column=\count291
+\lst@pos=\count292
+\lst@lostspace=\dimen179
+\lst@width=\dimen180
+\lst@newlines=\count293
+\lst@lineno=\count294
+\lst@maxwidth=\dimen181
+ ("C:\Users\jonac\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+\c@lstnumber=\count295
+\lst@skipnumbers=\count296
+\lst@framebox=\box56
+) ("C:\Users\jonac\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2018/09/02 1.7 listings configuration
+))
+Package: listings 2018/09/02 1.7 (Carsten Heinz)
+ ("C:\Users\jonac\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+ ("C:\Users\jonac\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+) ("C:\Users\jonac\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
+\Gm@cnth=\count297
+\Gm@cntv=\count298
+\c@Gm@tempcnt=\count299
+\Gm@bindingoffset=\dimen182
+\Gm@wd@mp=\dimen183
+\Gm@odd@mp=\dimen184
+\Gm@even@mp=\dimen185
+\Gm@layoutwidth=\dimen186
+\Gm@layoutheight=\dimen187
+\Gm@layouthoffset=\dimen188
+\Gm@layoutvoffset=\dimen189
+\Gm@dimlist=\toks22
+ ("C:\Users\jonac\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.cfg")) (verslag.aux)
 \openout1 = `verslag.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
  ("C:\Users\jonac\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count289
-\scratchdimen=\dimen178
-\scratchbox=\box55
-\nofMPsegments=\count290
-\nofMParguments=\count291
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count292
-\MPscratchDim=\dimen179
-\MPnumerator=\count293
-\makeMPintoPDFobject=\count294
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count300
+\scratchdimen=\dimen190
+\scratchbox=\box57
+\nofMPsegments=\count301
+\nofMParguments=\count302
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count303
+\MPscratchDim=\dimen191
+\MPnumerator=\count304
+\makeMPintoPDFobject=\count305
+\everyMPtoPDFconversion=\toks24
 ) ("C:\Users\jonac\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  ("C:\Users\jonac\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
@@ -566,23 +608,59 @@ Dictionary: translator-basic-dictionary, Language: English
 ) ("C:\Users\jonac\AppData\Local\Programs\MiKTeX 2.9\tex\latex\siunitx\siunitx-abbreviations.cfg"
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-\AtBeginShipoutBox=\box56
-Package hyperref Info: Link coloring OFF on input line 12.
+\AtBeginShipoutBox=\box58
+Package hyperref Info: Link coloring OFF on input line 15.
  ("C:\Users\jonac\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  ("C:\Users\jonac\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count295
+\c@section@level=\count306
 )
-LaTeX Info: Redefining \ref on input line 12.
-LaTeX Info: Redefining \pageref on input line 12.
-LaTeX Info: Redefining \nameref on input line 12.
+LaTeX Info: Redefining \ref on input line 15.
+LaTeX Info: Redefining \pageref on input line 15.
+LaTeX Info: Redefining \nameref on input line 15.
  (verslag.out) (verslag.out)
 \@outlinefile=\write3
 \openout3 = `verslag.out'.
 
- [1
+\c@lstlisting=\count307
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=556.47656pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=-13.87262pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+[1
 
 {C:/Users/jonac/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (verslag.toc)
 \tf@toc=\write4
@@ -592,70 +670,447 @@ LaTeX Info: Redefining \nameref on input line 12.
 <operatingmodes.png, id=80, 380.01974pt x 245.11575pt>
 File: operatingmodes.png Graphic file (type png)
 <use operatingmodes.png>
-Package pdftex.def Info: operatingmodes.png  used on input line 30.
-(pdftex.def)             Requested size: 345.0pt x 222.53578pt.
+Package pdftex.def Info: operatingmodes.png  used on input line 33.
+(pdftex.def)             Requested size: 430.00462pt x 277.36653pt.
 <power_modes_cycle_AMG8833_em2.png, id=82, 832.61063pt x 585.68813pt>
 File: power_modes_cycle_AMG8833_em2.png Graphic file (type png)
 <use power_modes_cycle_AMG8833_em2.png>
-Package pdftex.def Info: power_modes_cycle_AMG8833_em2.png  used on input line 40.
-(pdftex.def)             Requested size: 345.0pt x 242.68962pt.
+Package pdftex.def Info: power_modes_cycle_AMG8833_em2.png  used on input line 43.
+(pdftex.def)             Requested size: 430.00462pt x 302.47728pt.
 <sys1.png, id=84, 302.12875pt x 573.14125pt>
 File: sys1.png Graphic file (type png)
 <use sys1.png>
-Package pdftex.def Info: sys1.png  used on input line 51.
+Package pdftex.def Info: sys1.png  used on input line 54.
 (pdftex.def)             Requested size: 151.064pt x 286.56992pt.
  [3]
-
-LaTeX Warning: Text page 4 contains only floats.
-
-[4 <./operatingmodes.png> <./power_modes_cycle_AMG8833_em2.png>]
-<flowchart.png, id=100, 254.9525pt x 400.49625pt>
+<flowchart.png, id=94, 254.9525pt x 400.49625pt>
 File: flowchart.png Graphic file (type png)
 <use flowchart.png>
-Package pdftex.def Info: flowchart.png  used on input line 70.
+Package pdftex.def Info: flowchart.png  used on input line 73.
 (pdftex.def)             Requested size: 127.47592pt x 200.24763pt.
- [5 <./sys1.png>]
-<sensor_power.png, id=110, 166.221pt x 118.64325pt>
+<sensor_power.png, id=97, 166.221pt x 118.64325pt>
 File: sensor_power.png Graphic file (type png)
 <use sensor_power.png>
-Package pdftex.def Info: sensor_power.png  used on input line 82.
+Package pdftex.def Info: sensor_power.png  used on input line 85.
 (pdftex.def)             Requested size: 166.22057pt x 118.64294pt.
- [6 <./flowchart.png> <./sensor_power.png>]
-Overfull \hbox (24.473pt too wide) detected at line 92
-[]\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 3[] \OMS/cmsy/m/n/10  []\OT1/cmr/m/n/10 105[] \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 8[] + 50[] \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 83[] + 299\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 845[] \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 156[][] = 156\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 4904[]
- []
-
-<final_energy_consumption.png, id=122, 835.62187pt x 588.69937pt>
-File: final_energy_consumption.png Graphic file (type png)
-<use final_energy_consumption.png>
-Package pdftex.def Info: final_energy_consumption.png  used on input line 133.
-(pdftex.def)             Requested size: 345.0pt x 243.05707pt.
+ [4 <./operatingmodes.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
- [8 <./final_energy_consumption.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
+[5 <./power_modes_cycle_AMG8833_em2.png>]
+<final_energy_consumption.png, id=126, 835.62187pt x 588.69937pt>
+File: final_energy_consumption.png Graphic file (type png)
+<use final_energy_consumption.png>
+Package pdftex.def Info: final_energy_consumption.png  used on input line 136.
+(pdftex.def)             Requested size: 430.00462pt x 302.94551pt.
+ [6 <./sys1.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7 <./flowchart.png> <./sensor_power.png>] [8 <./final_energy_consumption.png>] ("C:\Users\jonac\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2018/09/02 1.7 listings language file
+) ("C:\Users\jonac\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+) (../Embedded_1_AMG8833_Temp_Sensor/src/main.c
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1.
+ ("C:\Users\jonac\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
+
+Overfull \hbox (50.00026pt too wide) in paragraph at lines 1--2
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 7--8
+[][][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 9--11
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (152.00124pt too wide) in paragraph at lines 15--16
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (104.00075pt too wide) in paragraph at lines 17--18
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (164.00137pt too wide) in paragraph at lines 24--25
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (62.00032pt too wide) in paragraph at lines 25--26
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (74.00044pt too wide) in paragraph at lines 27--29
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (1.99974pt too wide) in paragraph at lines 30--31
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (32.00003pt too wide) in paragraph at lines 31--34
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
+[9]
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 52--53
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 56--57
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 62--63
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 65--66
+[][][][][][][] 
+ []
+
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 68.
+("C:\Users\jonac\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 68.
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 71--72
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 75--76
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 84--85
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 91--92
+[][][][][][][] 
+ []
+
+[10]
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 100--101
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 104--105
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 111--112
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 113--114
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 125--126
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 127--128
+[][][][][][][] 
+ []
+
+[11]
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 139--140
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (56.0003pt too wide) in paragraph at lines 144--145
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 146--147
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (104.00081pt too wide) in paragraph at lines 167--169
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[12]
+Overfull \hbox (68.00044pt too wide) in paragraph at lines 195--196
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 211.
+
+Overfull \hbox (134.00111pt too wide) in paragraph at lines 216--217
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) [13] (../Embedded_1_AMG8833_Temp_Sensor/AMG8833/AMG8833.h
+Overfull \hbox (50.00026pt too wide) in paragraph at lines 8--9
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (50.00026pt too wide) in paragraph at lines 13--15
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (368.00348pt too wide) in paragraph at lines 22--24
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (62.00029pt too wide) in paragraph at lines 25--26
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (56.00021pt too wide) in paragraph at lines 26--27
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (170.00139pt too wide) in paragraph at lines 27--28
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (170.00139pt too wide) in paragraph at lines 28--30
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (50.0002pt too wide) in paragraph at lines 35--36
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (122.00092pt too wide) in paragraph at lines 36--38
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (86.00055pt too wide) in paragraph at lines 40--42
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (146.0011pt too wide) in paragraph at lines 42--44
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (56.0002pt too wide) in paragraph at lines 44--45
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (31.99994pt too wide) in paragraph at lines 47--49
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[14]
+Overfull \hbox (182.00145pt too wide) in paragraph at lines 50--51
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (182.00145pt too wide) in paragraph at lines 51--53
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) [15] (../Embedded_1_AMG8833_Temp_Sensor/AMG8833/AMG8833.c
+Overfull \hbox (50.00026pt too wide) in paragraph at lines 8--9
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (50.00026pt too wide) in paragraph at lines 13--16
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 29--30
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 32--33
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (38.00014pt too wide) in paragraph at lines 36--37
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 39--40
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 47--48
+[][][][][][][] 
+ []
+
+[16]
+Overfull \hbox (38.00014pt too wide) in paragraph at lines 57--58
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 61--62
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 69--70
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 81--83
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 87--88
+[][][][][][][][][] 
+ []
+
+[17]
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 94--95
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 114--115
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 128--129
+[][][][][][][] 
+ []
+
+[18]
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 146--147
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 159--160
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 178--179
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 182--183
+[][][][][][][] 
+ []
+
+[19]
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 188--189
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 198--199
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 203--204
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (62.00038pt too wide) in paragraph at lines 205--206
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 209--210
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 220--221
+[][][][][][][] 
+ []
+
+[20]
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 238--239
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (44.0002pt too wide) in paragraph at lines 244--245
+[][][][][][][] 
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
+ [21]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
  (verslag.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 148.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 148.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
 Package rerunfilecheck Info: File `verslag.out' has not changed.
 (rerunfilecheck)             Checksum: E8C98D945720DF27E4F497F0CA42811A;628.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 148.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 176.
  ) 
 Here is how much of TeX's memory you used:
- 18101 strings out of 492970
- 345456 string characters out of 3126593
- 401087 words of memory out of 3000000
- 21832 multiletter control sequences out of 15000+200000
- 540542 words of font info for 55 fonts, out of 3000000 for 9000
+ 21137 strings out of 492970
+ 389277 string characters out of 3126593
+ 657672 words of memory out of 3000000
+ 24260 multiletter control sequences out of 15000+200000
+ 540888 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,13n,63p,1188b,759s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on verslag.pdf (8 pages, 277321 bytes).
+ 40i,13n,63p,1188b,2218s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on verslag.pdf (21 pages, 421643 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
- 33 named destinations out of 1000 (max. 500000)
+ 909 PDF objects out of 1000 (max. 8388607)
+ 592 named destinations out of 1000 (max. 500000)
  127 words of extra memory for PDF output out of 10000 (max. 10000000)
 

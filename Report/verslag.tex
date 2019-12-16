@@ -5,6 +5,9 @@
 \usepackage[]{siunitx}
 \usepackage{hyperref}
 \usepackage{booktabs}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{geometry}
 %opening
 \title{Lab: Embedded system design 1}
 \author{Thomas Feys \and Jona Cappelle}
@@ -140,9 +143,34 @@ De processor wordt enkel uit sleep gehaald als er een timerinterrupt afgaat. Hie
 
 
 \newpage
-
 \section{Besluit }
 
 
+
+\newpage
+\section*{Bijlage}
+\lstset{
+  language=C,                % choose the language of the code
+  numbers=left,                   % where to put the line-numbers
+  stepnumber=1,                   % the step between two line-numbers.        
+  numbersep=5pt,                  % how far the line-numbers are from the code
+  backgroundcolor=\color{white},  % choose the background color. You must add \usepackage{color}
+  showspaces=false,               % show spaces adding particular underscores
+  showstringspaces=false,         % underline spaces within strings
+  showtabs=false,                 % show tabs within strings adding particular underscores
+  tabsize=2,                      % sets default tabsize to 2 spaces
+  captionpos=b,                   % sets the caption-position to bottom
+  breaklines=false,                % sets automatic line breaking
+  breakatwhitespace=true,         % sets if automatic breaks should only happen at whitespace
+  title=\lstname,                 % show the filename of files included with \lstinputlisting;
+}
+
+%\newgeometry{left=0}
+
+\lstinputlisting{../Embedded_1_AMG8833_Temp_Sensor/src/main.c}
+\newpage
+\lstinputlisting{../Embedded_1_AMG8833_Temp_Sensor/AMG8833/AMG8833.h}
+\newpage
+\lstinputlisting{../Embedded_1_AMG8833_Temp_Sensor/AMG8833/AMG8833.c}
 
 \end{document}
