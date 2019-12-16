@@ -4,6 +4,7 @@
 \usepackage{amsmath}
 \usepackage[]{siunitx}
 \usepackage{hyperref}
+\usepackage{booktabs}
 %opening
 \title{Lab: Embedded system design 1}
 \author{Thomas Feys \and Jona Cappelle}
@@ -87,16 +88,37 @@ De sensor heeft 3 verschillende powermodes, deze zijn te zien in figuur \ref{fig
 \paragraph{Sensor: }
 Door de methode toe te passen die besproken werd in section \ref{flowcode} wordt de power consumptie sterk verminderd. De sensor zit enkel in stand-by tijdens het uilezen van de sensor waarde. De sensor zit ook 105~ms in normal mode, omdat je altijd naar de normal mode moet gaan als je uit sleep komt. Er werd een meting uitgevoerd om dit verbruik te controleren, dit is terug te vinden in figuur \ref{fig:meting}. Uit deze meting is te zien dat de sensor 105~ms in normal mode zit met een verbruik van 4.8~mA, 50ms in stand-by met een verbruik van 2.83~mA\footnote{Tijdens het uitlezen van de sensor ligt het verbruik hoger, hierdoor verbruikt de sensor 2.83~mA in stand-by ipv 0.8~mA} en verder zit de sensor in sleep met een verbruik van 0.156~mA. Hierdoor bekomen we volgend verbruik per meting:
 \begin{equation}
-	 3.3\text{ V}\cdot\big(105\text{ ms} \cdot 4.8 \text{ mA} + 50\text{ ms}\cdot 2.83\text{ mA}+299.845\text{ s}\cdot 0.156\text{ mA}\big) = 622.973 \text{ J/meting}
+	 3.3\text{ V}\cdot\big(105\text{ ms} \cdot 4.8 \text{ mA} + 50\text{ ms}\cdot 2.83\text{ mA}+299.845\text{ s}\cdot 0.156\text{ mA}\big) = 156.4904 \text{ mJ/meting}
 \end{equation}
-Een overzicht is te zien in tabel \ref{}.
+Een overzicht is te zien in tabel \ref{tab:verbruik}.
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{graphicx}
+\begin{table}[h!]
+	\centering
+	%\resizebox{\textwidth}{!}{%
+	\begin{tabular}{@{}llll@{}}
+	\toprule
+	Power Mode & Verbruik {[}mA{]} & Tijd {[}s{]} & Energie {[}mJ{]} \\ \midrule
+	Normal     & 4.8               & 0.105        & 1.6632           \\
+	Stand-By   & 2.83              & 50           & 0.4669           \\
+	Sleep      & 0.156             & 299.845      & 154.3602         \\
+			   &                   & Totaal       & 156.4904         \\ \bottomrule
+	\end{tabular}%
+	%}
+	\caption{Verbruik voor \'e\'en meting}
+	\label{tab:verbruik}
+	\end{table}
+
+
+
 Als we om de 5 minuten een meting uitvoeren, bekomen we volgend verbruik:
-\begin{equation}
-	12\cdot 622.973 \text{J/meting} = 7475.68 \text{J} 
-\end{equation}
-\begin{equation}
-	\rightarrow 7475.68\text{ J}/3600\text{ s} = 
-\end{equation}
+\begin{align*}
+	12\cdot 156.4904 \dfrac{\text{mJ}}{\text{meting}} &=  \SI{1.877}{mJ} \\
+	\Rightarrow \dfrac{1.877\text{ J}}{3600\text{ s}} &= \SI{0.52}{mW}
+\end{align*}
 
 
 
@@ -104,14 +126,20 @@ Als we om de 5 minuten een meting uitvoeren, bekomen we volgend verbruik:
 In plaats van een constant verbruik van 0.8~mA verbrverbruikt de sensor maar 0.2~mA aangezien hij bijna constant in sleep zit. Het verbruik zal een klein beetje hoger zijn aangezien de sensor voor een kleine tijd weer in normal en stand-by mode gezet wordt. 
 \paragraph{Processor: }
 De processor wordt enkel uit sleep gehaald als er een timerinterrupt afgaat. Hierdoor zit de processor voornamelijk in EM2 dit geeft een verbruik van 0.9~$\mu$A.
-\subsection{Metingen}
-Om het verbruik van het systeem te controleren werd een meting uitgevoerd. Het resultaat van deze meting wordt weergegeven in figuur \ref{}.
+
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\columnwidth]{final_energy_consumption.png}
+	\caption{Meting verbruik}
+	\label{fig:meting}
+\end{figure}
 
 
 
 
 
-
+\newpage
 
 \section{Besluit }
 
