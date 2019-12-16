@@ -1,171 +1,197 @@
-PWD e:/GOOGLE_DRIVE/SCHOOL 2019-2020/embedded 1/Embedded_Project/Report
-INPUT C:/Users/jonac/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt
-INPUT e:/GOOGLE_DRIVE/SCHOOL 2019-2020/embedded 1/Embedded_Project/Report/verslag.tex
+PWD c:\Users\thoma\Documents\GitHub\Embedded_Project\Report
+INPUT C:\Users\thoma\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\thoma\Documents\GitHub\Embedded_Project\Report\verslag.tex
 OUTPUT verslag.log
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/article.cls
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/article.cls
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/size10.clo
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/size10.clo
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/generic/babel/babel.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/generic/babel/babel.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/generic/babel/switch.def
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/arabi/bblopts.cfg
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/arabi/bblopts.cfg
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/babel-dutch/dutch.ldf
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/babel-dutch/dutch.ldf
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/generic/babel/babel.def
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/generic/babel/txtbabel.def
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphicx.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphicx.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/keyval.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/keyval.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphics.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphics.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/trig.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/trig.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-def/pdftex.def
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-def/pdftex.def
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsmath.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsmath.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amstext.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amstext.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsgen.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsgen.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsbsy.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsbsy.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsopn.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsopn.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/siunitx/siunitx.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/siunitx/siunitx.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/l3kernel/expl3.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/l3kernel/expl3.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/l3kernel/expl3-code.tex
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/l3kernel/expl3-code.tex
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/generic/unicode-data/UnicodeData.txt
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/generic/unicode-data/UnicodeData.txt
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.clo
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.clo
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.def
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-dutch\dutch.ldf
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-dutch\dutch.ldf
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.def
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\siunitx\siunitx.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\siunitx\siunitx.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\generic\unicode-data\UnicodeData.txt
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\generic\unicode-data\UnicodeData.txt
 INPUT nul:.tex
 INPUT nul:.tex
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/l3kernel/l3pdfmode.def
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/l3kernel/l3pdfmode.def
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/l3packages/xparse/xparse.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/l3packages/xparse/xparse.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/array.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/array.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/translator/translator.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/translator/translator.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/translator/translator.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\translator.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\translator.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\translator.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty
 INPUT verslag.aux
 INPUT verslag.aux
 OUTPUT verslag.aux
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/context/base/supp-pdf.mkii
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/context/base/supp-pdf.mkii
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/kvdefinekeys.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/kvdefinekeys.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/kvsetkeys.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/kvsetkeys.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/etexcmds.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/etexcmds.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifluatex.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifluatex.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/pdftexcmds.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/pdftexcmds.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/ts1enc.dfu
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/ts1enc.dfu
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/translator/translator-basic-dictionary-English.dict
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/translator/translator-basic-dictionary-English.dict
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/siunitx/siunitx-abbreviations.cfg
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/tex/latex/siunitx/siunitx-abbreviations.cfg
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmss10.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmss8.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmss8.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmtt10.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmtt8.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmtt8.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr17.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr12.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr8.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr6.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmmi12.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmmi8.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmmi6.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmsy10.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmsy8.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmsy6.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmex10.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmss12.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmss8.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmss8.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmtt12.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmtt8.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmtt8.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mkii
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mkii
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\translator-basic-dictionary-English.dict
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\translator-basic-dictionary-English.dict
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\siunitx\siunitx-abbreviations.cfg
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\siunitx\siunitx-abbreviations.cfg
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
+INPUT verslag.out
+INPUT verslag.out
+INPUT verslag.out
+INPUT verslag.out
 OUTPUT verslag.pdf
-INPUT C:/Users/jonac/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr12.tfm
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
+INPUT .\verslag.out
+INPUT .\verslag.out
+OUTPUT verslag.out
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss10.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss8.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss8.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt10.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt8.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt8.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss12.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss8.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss8.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt12.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt8.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt8.tfm
+INPUT C:\Users\thoma\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
 INPUT verslag.toc
 INPUT verslag.toc
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx10.tfm
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
 OUTPUT verslag.toc
 INPUT operatingmodes.png
-INPUT ./operatingmodes.png
-INPUT ./operatingmodes.png
-INPUT ./operatingmodes.png
-INPUT ./operatingmodes.png
-INPUT operatingmodes.png
-INPUT ./operatingmodes.png
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
+INPUT .\operatingmodes.png
+INPUT .\operatingmodes.png
+INPUT .\operatingmodes.png
+INPUT .\operatingmodes.png
+INPUT power_modes_cycle_AMG8833_em2.png
+INPUT .\power_modes_cycle_AMG8833_em2.png
+INPUT .\power_modes_cycle_AMG8833_em2.png
+INPUT .\power_modes_cycle_AMG8833_em2.png
+INPUT .\power_modes_cycle_AMG8833_em2.png
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
 INPUT sys.png
-INPUT ./sys.png
-INPUT ./sys.png
-INPUT ./sys.png
-INPUT ./sys.png
-INPUT flowchartcode.png
-INPUT ./flowchartcode.png
-INPUT ./flowchartcode.png
-INPUT ./flowchartcode.png
-INPUT ./flowchartcode.png
+INPUT .\sys.png
+INPUT .\sys.png
+INPUT .\sys.png
+INPUT .\sys.png
+INPUT flowchart.png
+INPUT .\flowchart.png
+INPUT .\flowchart.png
+INPUT .\flowchart.png
+INPUT .\flowchart.png
+INPUT sensor_power.png
+INPUT .\sensor_power.png
+INPUT .\sensor_power.png
+INPUT .\sensor_power.png
+INPUT .\sensor_power.png
 INPUT verslag.aux
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT C:/Users/jonac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT .\verslag.out
+INPUT .\verslag.out
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmtt10.pfb
+INPUT C:\Users\thoma\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmtt10.pfb

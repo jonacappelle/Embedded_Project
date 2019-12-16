@@ -1,0 +1,13 @@
+\BOOKMARK [1][-]{section.1}{Inleiding}{}% 1
+\BOOKMARK [1][-]{section.2}{Sensor}{}% 2
+\BOOKMARK [1][-]{section.3}{Systeem}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Overzicht}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{I2C}{section.3}% 5
+\BOOKMARK [1][-]{section.4}{Code}{}% 6
+\BOOKMARK [2][-]{subsection.4.1}{Functionaliteiten}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.2}{Flow van de code}{section.4}% 8
+\BOOKMARK [1][-]{section.5}{Power consumptie}{}% 9
+\BOOKMARK [2][-]{subsection.5.1}{Sensor}{section.5}% 10
+\BOOKMARK [2][-]{subsection.5.2}{Principe}{section.5}% 11
+\BOOKMARK [2][-]{subsection.5.3}{Metingen}{section.5}% 12
+\BOOKMARK [1][-]{section.6}{Besluit }{}% 13
