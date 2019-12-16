@@ -192,11 +192,11 @@ int main(void)
 		  AMG8833_Sleep( false );
 		  AMG8833_StandBy(STBY_60);
 
+		  RTCDRV_StartTimer( xTimerForWakeUp, rtcdrvTimerTypeOneshot, 105, NULL, NULL);
+		  EMU_EnterEM2(true);
+
 		  //AMG8833_Thermistor_Read( rBuffer_Thermistor );
 		  AMG8833_Pixels_Read( rBuffer_Pixels );
-
-		  RTCDRV_StartTimer( xTimerForWakeUp, rtcdrvTimerTypeOneshot, 2000, NULL, NULL);
-		  EMU_EnterEM2(true);
 
 		  appState = SLEEP;
 

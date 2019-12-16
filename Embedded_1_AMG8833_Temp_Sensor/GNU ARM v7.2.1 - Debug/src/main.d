@@ -65,6 +65,7 @@ src/main.o: ../src/main.c \
  E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\hardware\kit\common\drivers/i2cspm.h \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\hardware\kit\slstk3400a_efm32hg\config\i2cspmconfig.h \
  E:\GOOGLE_DRIVE\SCHOOL\ 2019-2020\embedded\ 1\Embedded_1\dbprint/debug_dbprint.h \
+ E:\GOOGLE_DRIVE\SCHOOL\ 2019-2020\embedded\ 1\Embedded_1\dbprint/dbprint.h \
  E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_usart.h
 
 e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\em_device.h:
@@ -198,5 +199,7 @@ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\hardware\
 e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\hardware\kit\slstk3400a_efm32hg\config\i2cspmconfig.h:
 
 E:\GOOGLE_DRIVE\SCHOOL\ 2019-2020\embedded\ 1\Embedded_1\dbprint/debug_dbprint.h:
+
+E:\GOOGLE_DRIVE\SCHOOL\ 2019-2020\embedded\ 1\Embedded_1\dbprint/dbprint.h:
 
 E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_usart.h:

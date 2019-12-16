@@ -1,6 +1,7 @@
 AMG8833/AMG8833.o: ../AMG8833/AMG8833.c ../AMG8833/AMG8833.h \
  ../AMG8833/I2C.h \
  E:\GOOGLE_DRIVE\SCHOOL\ 2019-2020\embedded\ 1\Embedded_1\dbprint/debug_dbprint.h \
+ E:\GOOGLE_DRIVE\SCHOOL\ 2019-2020\embedded\ 1\Embedded_1\dbprint/dbprint.h \
  E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_usart.h \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\em_device.h \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\efm32hg322f64.h \
@@ -56,6 +57,8 @@ AMG8833/AMG8833.o: ../AMG8833/AMG8833.c ../AMG8833/AMG8833.h \
 ../AMG8833/I2C.h:
 
 E:\GOOGLE_DRIVE\SCHOOL\ 2019-2020\embedded\ 1\Embedded_1\dbprint/debug_dbprint.h:
+
+E:\GOOGLE_DRIVE\SCHOOL\ 2019-2020\embedded\ 1\Embedded_1\dbprint/dbprint.h:
 
 E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_usart.h:
 
