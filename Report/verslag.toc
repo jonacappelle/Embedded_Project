@@ -10,6 +10,4 @@
 \contentsline {section}{\numberline {5}Power consumptie}{4}{section.5}
 \contentsline {subsection}{\numberline {5.1}Sensor}{4}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Principe}{5}{subsection.5.2}
-\contentsline {paragraph}{Sensor: }{5}{section*.2}
-\contentsline {paragraph}{Processor: }{7}{section*.3}
-\contentsline {section}{\numberline {6}Besluit }{8}{section.6}
+\contentsline {section}{\numberline {6}Besluit }{7}{section.6}
