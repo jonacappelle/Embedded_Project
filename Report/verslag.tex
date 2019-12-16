@@ -85,7 +85,7 @@ De sensor heeft 3 verschillende powermodes, deze zijn te zien in figuur \ref{fig
 \end{figure}
 
 \subsection{Principe}
-\paragraph{Sensor: }
+
 Door de methode toe te passen die besproken werd in section \ref{flowcode} wordt de power consumptie sterk verminderd. De sensor zit enkel in stand-by tijdens het uilezen van de sensor waarde. De sensor zit ook 105~ms in normal mode, omdat je altijd naar de normal mode moet gaan als je uit sleep komt. Er werd een meting uitgevoerd om dit verbruik te controleren, dit is terug te vinden in figuur \ref{fig:meting}. Uit deze meting is te zien dat de sensor 105~ms in normal mode zit met een verbruik van 4.8~mA, 50ms in stand-by met een verbruik van 2.83~mA\footnote{Tijdens het uitlezen van de sensor ligt het verbruik hoger, hierdoor verbruikt de sensor 2.83~mA in stand-by ipv 0.8~mA} en verder zit de sensor in sleep met een verbruik van 0.156~mA. Hierdoor bekomen we volgend verbruik per meting:
 \begin{equation}
 	 3.3\text{ V}\cdot\big(105\text{ ms} \cdot 4.8 \text{ mA} + 50\text{ ms}\cdot 2.83\text{ mA}+299.845\text{ s}\cdot 0.156\text{ mA}\big) = 156.4904 \text{ mJ/meting}
@@ -122,10 +122,8 @@ Als we om de 5 minuten een meting uitvoeren, bekomen we volgend verbruik:
 
 
 
+ 
 
-In plaats van een constant verbruik van 0.8~mA verbrverbruikt de sensor maar 0.2~mA aangezien hij bijna constant in sleep zit. Het verbruik zal een klein beetje hoger zijn aangezien de sensor voor een kleine tijd weer in normal en stand-by mode gezet wordt. 
-\paragraph{Processor: }
-De processor wordt enkel uit sleep gehaald als er een timerinterrupt afgaat. Hierdoor zit de processor voornamelijk in EM2 dit geeft een verbruik van 0.9~$\mu$A.
 
 
 \begin{figure}[h!]
@@ -142,6 +140,7 @@ De processor wordt enkel uit sleep gehaald als er een timerinterrupt afgaat. Hie
 \newpage
 
 \section{Besluit }
+In dit labo hebben we een grid eye sensor aangesproken aan de hand van een I2C verbinding. Er werd een library geschreven om te werken met de verschillende functionaliteiten van de sensor. Deze library werd vervolgens gebruikt om de sensor op een low power manier te gebruiken. Dit leverde uiteindelijk een verbruik van 0.52~mW op. 
 
 
 
