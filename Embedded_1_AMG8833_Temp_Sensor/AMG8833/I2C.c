@@ -140,13 +140,13 @@ bool IIC_ReadBuffer(uint8_t iicAddress, uint8_t regCommand, uint8_t * rBuffer, u
 	seq.addr  = iicAddress;
 	seq.flags = I2C_FLAG_READ;
 	/* Select command to issue */
-	i2c_write_data[0] = regCommand;
-	seq.buf[0].data   = i2c_write_data;
-	seq.buf[0].len    = 1;
+	//i2c_write_data[0] = regCommand;
+	//seq.buf[0].data   = i2c_write_data;
+	//seq.buf[0].len    = 1;
 
 	/* Select location/length of data to be read */
-	seq.buf[1].data = rBuffer;
-	seq.buf[1].len  = rLength;
+	seq.buf[0].data = rBuffer;
+	seq.buf[0].len  = rLength;
 
 	ret = I2CSPM_Transfer(i2cInit.port, &seq);
 

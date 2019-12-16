@@ -51,16 +51,21 @@ src/main.o: ../src/main.c \
  E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_assert.h \
  E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_cmu.h \
  E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_common.h \
- E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_i2c.h \
- E:\GOOGLE_DRIVE\SCHOOL\ 2019-2020\embedded\ 1\Embedded_1\AMG8833/I2C.h \
- E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_gpio.h \
- E:\GOOGLE_DRIVE\SCHOOL\ 2019-2020\embedded\ 1\Embedded_1\AMG8833/AMG8833.h \
  E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_emu.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_gpio.h \
  E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_rtc.h \
  E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_core.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emdrv\rtcdrv\inc/rtcdriver.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emdrv\common\inc/ecode.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\app\mcu_example\SLWSTK6244A_EZR32HG\ezradio_pn9\config/rtcdrv_config.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_wdog.h \
+ E:\GOOGLE_DRIVE\SCHOOL\ 2019-2020\embedded\ 1\Embedded_1\AMG8833/AMG8833.h \
+ E:\GOOGLE_DRIVE\SCHOOL\ 2019-2020\embedded\ 1\Embedded_1\AMG8833/I2C.h \
+ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_i2c.h \
  E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\hardware\kit\common\drivers/i2cspm.h \
  e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\hardware\kit\slstk3400a_efm32hg\config\i2cspmconfig.h \
  E:\GOOGLE_DRIVE\SCHOOL\ 2019-2020\embedded\ 1\Embedded_1\dbprint/debug_dbprint.h \
+ E:\GOOGLE_DRIVE\SCHOOL\ 2019-2020\embedded\ 1\Embedded_1\dbprint/dbprint.h \
  E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_usart.h
 
 e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\device\siliconlabs\efm32hg\include\em_device.h:
@@ -167,24 +172,34 @@ E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\
 
 E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_common.h:
 
-E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_i2c.h:
-
-E:\GOOGLE_DRIVE\SCHOOL\ 2019-2020\embedded\ 1\Embedded_1\AMG8833/I2C.h:
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_emu.h:
 
 E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_gpio.h:
-
-E:\GOOGLE_DRIVE\SCHOOL\ 2019-2020\embedded\ 1\Embedded_1\AMG8833/AMG8833.h:
-
-E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_emu.h:
 
 E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_rtc.h:
 
 E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_core.h:
+
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emdrv\rtcdrv\inc/rtcdriver.h:
+
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emdrv\common\inc/ecode.h:
+
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\app\mcu_example\SLWSTK6244A_EZR32HG\ezradio_pn9\config/rtcdrv_config.h:
+
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_wdog.h:
+
+E:\GOOGLE_DRIVE\SCHOOL\ 2019-2020\embedded\ 1\Embedded_1\AMG8833/AMG8833.h:
+
+E:\GOOGLE_DRIVE\SCHOOL\ 2019-2020\embedded\ 1\Embedded_1\AMG8833/I2C.h:
+
+E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_i2c.h:
 
 E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\hardware\kit\common\drivers/i2cspm.h:
 
 e:\program\ files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\hardware\kit\slstk3400a_efm32hg\config\i2cspmconfig.h:
 
 E:\GOOGLE_DRIVE\SCHOOL\ 2019-2020\embedded\ 1\Embedded_1\dbprint/debug_dbprint.h:
+
+E:\GOOGLE_DRIVE\SCHOOL\ 2019-2020\embedded\ 1\Embedded_1\dbprint/dbprint.h:
 
 E:\Program\ Files\simplicitystudio\developer\sdks\gecko_sdk_suite\v2.6\platform\emlib\inc/em_usart.h:

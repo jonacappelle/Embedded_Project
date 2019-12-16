@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['stby_5f10_72',['STBY_10',['../_a_m_g8833_8h.html#acc1094023bf211ea5d86b015f9b8146e',1,'AMG8833.h']]],
-  ['stby_5f60_73',['STBY_60',['../_a_m_g8833_8h.html#a5390b7679b27dfdedcf1ac5a88cc3593',1,'AMG8833.h']]]
+  ['reset_115',['RESET',['../_a_m_g8833_8h.html#ab702106cf3b3e96750b6845ded4e0299',1,'AMG8833.h']]]
 ];
