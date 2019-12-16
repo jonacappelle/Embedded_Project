@@ -8,6 +8,7 @@
 \usepackage{listings}
 \usepackage{color}
 \usepackage{geometry}
+\usepackage{float}
 %opening
 \title{Lab: Embedded system design 1}
 \author{Thomas Feys \and Jona Cappelle}
@@ -28,7 +29,7 @@ Ons doel is om de wachtrij in de rabotaria te monitoren. Dit zullen we doen aan 
 
 \section{Sensor}
 De sensor die we gebruiken om de wachtrij te monitoren is de AMG8833. Deze IR grid sensor heeft 8x8 pixels die de temperatuur weergeven. Volgens de datasheet kan a.d.h.v. de temperatuur een mens waargenomen worden vanop een afstand van 5 meter. De sensor kan gebruikt worden in 3 verschillende modes: normal, sleep en stand-by. In de normale mode heeft de sensor een verbruik van 4.5 mA. De stand-by mode heeft twee opties; de waardes kunnen geüpdatet worden om de 60 seconden of om de 10 seconden. In deze mode is er een verbruik van 0.8 mA. Als laatste is er de sleep mode deze verbruikt 0.2 mA. Een overzicht van alle modes en de commando's die verstuurd moeten worden om in deze modes te gaan, wordt weergegeven in figuur \ref{fig:operatingmodes}. Tijdens het testen van de sensor hebben we periodiek geswitched tussen de verschillende power modes. Het resultaat van deze test is te zien in figuur \ref{fig:powertest}. De sensor heeft ook een interrupt pin. Deze pin geneert een interrupt als een van de pixels over of onder een bepaalde waarde gaat. Deze waarde is instelbaar.	
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\columnwidth]{operatingmodes.png}
 	\caption{Overzicht operating modes}
@@ -38,7 +39,7 @@ De sensor die we gebruiken om de wachtrij te monitoren is de AMG8833. Deze IR gr
 %todo figuur aanpassen naar screenshot powermodes in de power monitor 
 %todo test doen in verschillende modes met processor in sleep
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\columnwidth]{power_modes_cycle_AMG8833_em2.png}
 	\caption{Test van de verschillende powermodes}
@@ -49,7 +50,7 @@ De sensor die we gebruiken om de wachtrij te monitoren is de AMG8833. Deze IR gr
 \subsection{Overzicht}
 De AMG8833 communiceert met de EFM32 via I2C. Naast de I2C communicatie is er ook een interrupt pin voorzien op de sensor. Deze pin genereert een interrupt als er een van de pixels een bepaalde, instelbare waarde overschrijdt. Een volledig overzicht van het systeem is te zien in figuur \ref{fig:systeem}.
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.5]{sys1.png}
 	\caption{Overzicht van het systeem}
@@ -61,14 +62,14 @@ De communicatie met de sensor gebeurt via I2C. Het adres van de sensor is een 7 
 
 \section{Code}
 \subsection{Functionaliteiten}
-Om gemakkelijk met de sensor te werken werd er een library geschreven voor de AMG8833. Er werden verschillende methodes geschreven om vlot te kunnen omgaan met de sensor. Er werd een functie geschreven om alle pixels uit te lezen. Naast de pixels is er ook een thermistor aanwezig in de sensor, ook hiervoor werd een functie geschreven. Er werden ook verschillende functies geschreven om makkelijk tussen de verschillende powermodes te kunnen wisselen. Een volledig overzicht van deze library en de rest van de code is terug te vinden op github: \url{https://github.com/jonacappelle/Embedded_Project}.
+Om gemakkelijk met de sensor te werken werd er een library geschreven voor de AMG8833. Er werden verschillende methodes geschreven om vlot te kunnen omgaan met de sensor. Er werd een functie geschreven om alle pixels uit te lezen. Naast de pixels is er ook een thermistor aanwezig in de sensor, ook hiervoor werd een functie geschreven. Er werden ook verschillende functies geschreven om makkelijk tussen de verschillende powermodes te kunnen wisselen. Een volledig overzicht van deze library en de rest van de code is terug te vinden op github: \url{https://github.com/jonacappelle/Embedded_Project} of in hoofdstuk \ref{bijlage}.
 
 
 \subsection{Flow van de code}
 \label{flowcode}
 Aangezien de sensor in stand-by een verbruik van 0.8~mA heeft wordt deze altijd in sleep gezet. De sensor wordt om de 5 minuten uit sleep gehaald om alle pixels uit te lezen. Hierna wordt ze weer in sleep gezet. Een volledig overzicht van de code is terug te vinden in figuur \ref{fig:flowchart}.
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.5]{flowchart.png}
 	\caption{flowchart van de code}
@@ -80,7 +81,7 @@ Aangezien de sensor in stand-by een verbruik van 0.8~mA heeft wordt deze altijd 
 \subsection{Sensor}
 De sensor heeft 3 verschillende powermodes, deze zijn te zien in figuur \ref{fig:sensor_power}. Deze hebben we ook zelf opgemeten zoals te zien is in figuur \ref{fig:powertest}. De gemeten waarden liggen in dezelfde grote orde als deze die opgegeven zijn in de datasheet, maar wijken toch een klein beetje af. In normal mode gebruikt onze sensor 4.95~mA, in stand-by 0.66~mA en in sleep  0.156~mA.
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\centering
 	\includegraphics{sensor_power.png}
 	\caption{powermodes van de sensor}
@@ -99,7 +100,7 @@ Een overzicht is te zien in tabel \ref{tab:verbruik}.
 % Please add the following required packages to your document preamble:
 % \usepackage{booktabs}
 % \usepackage{graphicx}
-\begin{table}[h!]
+\begin{table}[H]
 	\centering
 	%\resizebox{\textwidth}{!}{%
 	\begin{tabular}{@{}llll@{}}
@@ -125,17 +126,12 @@ Als we om de 5 minuten een meting uitvoeren, bekomen we volgend verbruik:
 
 
 
- 
-
-
-
-\begin{figure}[h!]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\columnwidth]{final_energy_consumption.png}
 	\caption{Meting verbruik}
 	\label{fig:meting}
 \end{figure}
-
 
 
 
@@ -147,7 +143,7 @@ In dit labo hebben we een grid eye sensor aangesproken aan de hand van een I2C v
 
 
 \newpage
-\section*{Bijlage}
+\section{Bijlage}\label{bijlage}
 \lstset{
   language=C,                % choose the language of the code
   numbers=left,                   % where to put the line-numbers
@@ -158,7 +154,7 @@ In dit labo hebben we een grid eye sensor aangesproken aan de hand van een I2C v
   showstringspaces=false,         % underline spaces within strings
   showtabs=false,                 % show tabs within strings adding particular underscores
   tabsize=2,                      % sets default tabsize to 2 spaces
-  captionpos=b,                   % sets the caption-position to bottom
+  captionpos=t,                   % sets the caption-position to bottom
   breaklines=false,                % sets automatic line breaking
   breakatwhitespace=true,         % sets if automatic breaks should only happen at whitespace
   title=\lstname,                 % show the filename of files included with \lstinputlisting;
