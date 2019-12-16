@@ -237,7 +237,7 @@ void AMG8833_Interrupt(bool enable)
 
 /**************************************************************************//**
  * @brief
- *   Sensor Interrupt upper limit set
+ *   Sensor Interrupt upper limit set: TODO
  *
  * @param[in] value
  *	Upper limit for interrupt
