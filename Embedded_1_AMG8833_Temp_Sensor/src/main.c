@@ -6,11 +6,6 @@
  * @author Jona Cappelle & Thomas Feys
  * ****************************************************************************
  *
- * @todo
- *  Future improvements:**@n
- *     - Implement state machine
- *     - Interrupt functionality
- *     - Make MCU low power by using EM2 RTC timers
  *****************************************************************************/
 
 /* System Includes */

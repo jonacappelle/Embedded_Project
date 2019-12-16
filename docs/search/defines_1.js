@@ -1,10 +1,5 @@
 var searchData=
 [
-  ['pixel_5f1_5fl_64',['PIXEL_1_L',['../_a_m_g8833_8h.html#afa30659fd092e0f59f57849add744531',1,'AMG8833.h']]],
-  ['pixel_5fres_65',['PIXEL_RES',['../_a_m_g8833_8h.html#a595ff2807106d2c411a5747323ad6112',1,'AMG8833.h']]],
-  ['power_5fcontrol_66',['POWER_CONTROL',['../_a_m_g8833_8h.html#a5c63654ae2d0793b149ea526b1813a82',1,'AMG8833.h']]],
-  ['power_5fcontrol_5fnormal_67',['POWER_CONTROL_NORMAL',['../_a_m_g8833_8h.html#a3e99539f68b3428ce90bcf6c6663d87f',1,'AMG8833.h']]],
-  ['power_5fcontrol_5fsleep_68',['POWER_CONTROL_SLEEP',['../_a_m_g8833_8h.html#a2df55e40cca9e3d5d2cb697d8e3fd25b',1,'AMG8833.h']]],
-  ['power_5fcontrol_5fstby_5f10_69',['POWER_CONTROL_STBY_10',['../_a_m_g8833_8h.html#a07484dab300be97379243fe91835153d',1,'AMG8833.h']]],
-  ['power_5fcontrol_5fstby_5f60_70',['POWER_CONTROL_STBY_60',['../_a_m_g8833_8h.html#ad615361da26cfe238974693149f5019f',1,'AMG8833.h']]]
+  ['i2c_5faddress_106',['I2C_ADDRESS',['../_a_m_g8833_8h.html#a770f0c15acd838afca500d56b792c6b5',1,'AMG8833.h']]],
+  ['i2c_5fport_5flocation_107',['I2C_PORT_LOCATION',['../_i2_c_8c.html#aff2982b599eb13f05c46155bbf7d2a6a',1,'I2C.c']]]
 ];

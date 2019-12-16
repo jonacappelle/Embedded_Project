@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['thermistor_5foutput_5fvalue_5fl_74',['THERMISTOR_OUTPUT_VALUE_L',['../_a_m_g8833_8h.html#a51576aa742d7c37192f1524451ae4cf3',1,'AMG8833.h']]],
-  ['thermistor_5fres_75',['THERMISTOR_RES',['../_a_m_g8833_8h.html#aaee85d85c3c34cf341f5eaacd8228ea6',1,'AMG8833.h']]]
+  ['stby_5f10_116',['STBY_10',['../_a_m_g8833_8h.html#acc1094023bf211ea5d86b015f9b8146e',1,'AMG8833.h']]],
+  ['stby_5f60_117',['STBY_60',['../_a_m_g8833_8h.html#a5390b7679b27dfdedcf1ac5a88cc3593',1,'AMG8833.h']]]
 ];

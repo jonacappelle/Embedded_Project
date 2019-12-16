@@ -1,5 +1,11 @@
 var _a_m_g8833_8h =
 [
+    [ "AMG8833_INT_CONTROL_REGISTER", "_a_m_g8833_8h.html#a7d2ab83ed96297c25e3311c758928e5a", null ],
+    [ "AMG8833_INT_LEVEL_REGISTER", "_a_m_g8833_8h.html#a6372964ae822ec1646b8ec04fc809758", null ],
+    [ "AMG8833_INTERRUPT_PIN", "_a_m_g8833_8h.html#ab5b1c8a552a56f3b639dba0db47fd8c0", null ],
+    [ "AMG8833_INTERRUPT_PORT", "_a_m_g8833_8h.html#af61178165374f7a59598e54f760e1882", null ],
+    [ "AMG8833_POWER_PIN", "_a_m_g8833_8h.html#a40dd9cce69aa57694631b1fcbdc5c0bd", null ],
+    [ "AMG8833_POWER_PORT", "_a_m_g8833_8h.html#a453f9b1646dec9b722e9b805fb709523", null ],
     [ "I2C_ADDRESS", "_a_m_g8833_8h.html#a770f0c15acd838afca500d56b792c6b5", null ],
     [ "PIXEL_1_L", "_a_m_g8833_8h.html#afa30659fd092e0f59f57849add744531", null ],
     [ "PIXEL_RES", "_a_m_g8833_8h.html#a595ff2807106d2c411a5747323ad6112", null ],
@@ -13,7 +19,11 @@ var _a_m_g8833_8h =
     [ "STBY_60", "_a_m_g8833_8h.html#a5390b7679b27dfdedcf1ac5a88cc3593", null ],
     [ "THERMISTOR_OUTPUT_VALUE_L", "_a_m_g8833_8h.html#a51576aa742d7c37192f1524451ae4cf3", null ],
     [ "THERMISTOR_RES", "_a_m_g8833_8h.html#aaee85d85c3c34cf341f5eaacd8228ea6", null ],
+    [ "THRESHOLD_VALUE", "_a_m_g8833_8h.html#a66e200a1d83033041bf1c6244e3e0504", null ],
+    [ "AMG8833_Init", "_a_m_g8833_8h.html#a0710dca6593039258f51f4fb3b6f3707", null ],
+    [ "AMG8833_Interrupt", "_a_m_g8833_8h.html#a47da9a8448bdf52891205cecb88aab2f", null ],
     [ "AMG8833_Pixels_Read", "_a_m_g8833_8h.html#a0e35ea54bb99d2f7f41ec1714e127ab2", null ],
+    [ "AMG8833_Power", "_a_m_g8833_8h.html#a44509e588c1a7a8cba3df16324a3244b", null ],
     [ "AMG8833_Reset", "_a_m_g8833_8h.html#a06d3f503511d5679583f0fb99a2f0228", null ],
     [ "AMG8833_Sleep", "_a_m_g8833_8h.html#af57825d9792585be95870fde64d4c51c", null ],
     [ "AMG8833_StandBy", "_a_m_g8833_8h.html#ab4bcae84c5bbeed464be55a494aad6b4", null ],

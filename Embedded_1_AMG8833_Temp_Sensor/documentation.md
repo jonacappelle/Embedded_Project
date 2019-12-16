@@ -26,6 +26,12 @@
 | Stand-by      | 0.8 mA        |
 | Sleep         | 0.2 mA        |
 
+## Pinout
 
+| AMG8833 PIN   |PIN            |
+| ------------- |:-------------:|
+| 3.3 V        | PE13        |
+| SDA      | PD6        |
+| SCL         | PD7        |
 
 
