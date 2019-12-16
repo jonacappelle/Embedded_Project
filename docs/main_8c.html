@@ -433,11 +433,11 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;          <a class="code" href="_a_m_g8833_8c.html#af57825d9792585be95870fde64d4c51c">AMG8833_Sleep</a>( <span class="keyword">false</span> );</div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;          <a class="code" href="_a_m_g8833_8c.html#ab4bcae84c5bbeed464be55a494aad6b4">AMG8833_StandBy</a>(<a class="code" href="_a_m_g8833_8h.html#a5390b7679b27dfdedcf1ac5a88cc3593">STBY_60</a>);</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160; </div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;          <span class="comment">//AMG8833_Thermistor_Read( rBuffer_Thermistor );</span></div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;          <a class="code" href="_a_m_g8833_8c.html#a0e35ea54bb99d2f7f41ec1714e127ab2">AMG8833_Pixels_Read</a>( <a class="code" href="main_8c.html#af0bef3999dc755be415ef103e4499b62">rBuffer_Pixels</a> );</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;          RTCDRV_StartTimer( <a class="code" href="main_8c.html#ad6995d645051fd00ca8a08e0831d636f">xTimerForWakeUp</a>, rtcdrvTimerTypeOneshot, 105, NULL, NULL);</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;          EMU_EnterEM2(<span class="keyword">true</span>);</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160; </div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;          RTCDRV_StartTimer( <a class="code" href="main_8c.html#ad6995d645051fd00ca8a08e0831d636f">xTimerForWakeUp</a>, rtcdrvTimerTypeOneshot, 2000, NULL, NULL);</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;          EMU_EnterEM2(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;          <span class="comment">//AMG8833_Thermistor_Read( rBuffer_Thermistor );</span></div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;          <a class="code" href="_a_m_g8833_8c.html#a0e35ea54bb99d2f7f41ec1714e127ab2">AMG8833_Pixels_Read</a>( <a class="code" href="main_8c.html#af0bef3999dc755be415ef103e4499b62">rBuffer_Pixels</a> );</div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160; </div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;          appState = <a class="code" href="main_8c.html#a48f4b62896fa057ea2b80976b13a27d4ad6137abebe4fdc59e2f0f2c84bdbe3fa">SLEEP</a>;</div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160; </div>
