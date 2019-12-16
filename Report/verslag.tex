@@ -23,7 +23,7 @@ Ons doel is om de wachtrij in de rabotaria te monitoren. Dit zullen we doen aan 
 
 
 \section{Sensor}
-De sensor die we gebruiken om de wachtrij te monitoren is de AMG8833. Deze IR grid sensor heeft 8x8 pixels die de temperatuur weergeven. Volgens de datasheet kan a.d.h.v. de temperatuur een mens waargenomen worden vanop een afstand van 5 meter. De sensor kan gebruikt worden in 3 verschillende modes: normal, sleep en stand-by. In de normale mode heeft de sensor een verbruik van 4.5 mA. De stand-by mode heeft twee opties; de waardes kunnen geüpdatet worden om de 60 seconden of om de 10 seconden. In deze mode is er een verbruik van 0.8 mA. Als laatste is er de sleep mode deze verbruikt 0.2 mA. Een overzicht van alle modes en de commando's die verstuurd moeten worden om in deze modes te raken wordt weergegeven in figuur \ref{fig:operatingmodes}. Tijdens het testen van de sensor hebben we periodiek geswitched tussen de verschillende power modes. Het resultaat van deze test is te zien in figuur \ref{fig:powertest}. De sensor heeft ook een interrupt pin. Deze pin geneert een interrupt als een van de pixels over of onder een bepaalde waarde gaat. Deze waarde is instelbaar.	
+De sensor die we gebruiken om de wachtrij te monitoren is de AMG8833. Deze IR grid sensor heeft 8x8 pixels die de temperatuur weergeven. Volgens de datasheet kan a.d.h.v. de temperatuur een mens waargenomen worden vanop een afstand van 5 meter. De sensor kan gebruikt worden in 3 verschillende modes: normal, sleep en stand-by. In de normale mode heeft de sensor een verbruik van 4.5 mA. De stand-by mode heeft twee opties; de waardes kunnen geüpdatet worden om de 60 seconden of om de 10 seconden. In deze mode is er een verbruik van 0.8 mA. Als laatste is er de sleep mode deze verbruikt 0.2 mA. Een overzicht van alle modes en de commando's die verstuurd moeten worden om in deze modes te gaan, wordt weergegeven in figuur \ref{fig:operatingmodes}. Tijdens het testen van de sensor hebben we periodiek geswitched tussen de verschillende power modes. Het resultaat van deze test is te zien in figuur \ref{fig:powertest}. De sensor heeft ook een interrupt pin. Deze pin geneert een interrupt als een van de pixels over of onder een bepaalde waarde gaat. Deze waarde is instelbaar.	
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=\columnwidth]{operatingmodes.png}
@@ -47,7 +47,7 @@ De AMG8833 communiceert met de EFM32 via I2C. Naast de I2C communicatie is er oo
 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[scale=0.5]{sys.png}
+	\includegraphics[scale=0.5]{sys1.png}
 	\caption{Overzicht van het systeem}
 	\label{fig:systeem}
 \end{figure}
@@ -74,7 +74,7 @@ Aangezien de sensor in stand-by een verbruik van 0.8~mA heeft wordt deze altijd 
 
 \section{Power consumptie}
 \subsection{Sensor}
-De sensor heeft 3 verschillende powermodes, deze zijn te zien in figuur \ref{fig:sensor_power}. Deze hebben we ook zelf opgemeten zoals te zien is in figuur \ref{fig:powertest}. De gemeten waarden liggen in dezelfde grote orde als deze die opgegeven zijn in de datasheet, maar wijken toch een klein beetje af. In normal mode gebruikt onze sensor ... mA, in stand-by ... mA en in sleep ... mA.
+De sensor heeft 3 verschillende powermodes, deze zijn te zien in figuur \ref{fig:sensor_power}. Deze hebben we ook zelf opgemeten zoals te zien is in figuur \ref{fig:powertest}. De gemeten waarden liggen in dezelfde grote orde als deze die opgegeven zijn in de datasheet, maar wijken toch een klein beetje af. In normal mode gebruikt onze sensor 4.95~mA, in stand-by 0.66~mA en in sleep  0.156~mA.
 
 \begin{figure}[!ht]
 	\centering
@@ -85,10 +85,26 @@ De sensor heeft 3 verschillende powermodes, deze zijn te zien in figuur \ref{fig
 
 \subsection{Principe}
 \paragraph{Sensor: }
-Door de methode toe te passen die besproken werd in section \ref{flowcode} wordt de power consumptie sterk verminderd. In plaats van een verbruik van 0.8~mA verbruikt de sensor maar 0.2~mA aangezien hij bijna constant in sleep zit. Het verbruik zal een klein beetje hoger zijn aangezien de sensor voor een kleine tijd weer in normal en stand-by mode gezet wordt. 
+Door de methode toe te passen die besproken werd in section \ref{flowcode} wordt de power consumptie sterk verminderd. De sensor zit enkel in stand-by tijdens het uilezen van de sensor waarde. De sensor zit ook 105~ms in normal mode, omdat je altijd naar de normal mode moet gaan als je uit sleep komt. Er werd een meting uitgevoerd om dit verbruik te controleren, dit is terug te vinden in figuur \ref{fig:meting}. Uit deze meting is te zien dat de sensor 105~ms in normal mode zit met een verbruik van 4.8~mA, 50ms in stand-by met een verbruik van 2.83~mA\footnote{Tijdens het uitlezen van de sensor ligt het verbruik hoger, hierdoor verbruikt de sensor 2.83~mA in stand-by ipv 0.8~mA} en verder zit de sensor in sleep met een verbruik van 0.156~mA. Hierdoor bekomen we volgend verbruik per meting:
+\begin{equation}
+	 3.3\text{ V}\cdot\big(105\text{ ms} \cdot 4.8 \text{ mA} + 50\text{ ms}\cdot 2.83\text{ mA}+299.845\text{ s}\cdot 0.156\text{ mA}\big) = 622.973 \text{ J/meting}
+\end{equation}
+Als we om de 5 minuten een meting uitvoeren, bekomen we volgend verbruik:
+\begin{equation}
+\end{equation}
+
+
+
+
+In plaats van een constant verbruik van 0.8~mA verbrverbruikt de sensor maar 0.2~mA aangezien hij bijna constant in sleep zit. Het verbruik zal een klein beetje hoger zijn aangezien de sensor voor een kleine tijd weer in normal en stand-by mode gezet wordt. 
 \paragraph{Processor: }
-De processor wordt enkel uit sleep gehaald als er een timerinterrupt afgaat. Hierdoor zit de processor voornamelijk in EM2 dit geeft een verbruik van 0.9~$\mu$A
+De processor wordt enkel uit sleep gehaald als er een timerinterrupt afgaat. Hierdoor zit de processor voornamelijk in EM2 dit geeft een verbruik van 0.9~$\mu$A.
 \subsection{Metingen}
+Om het verbruik van het systeem te controleren werd een meting uitgevoerd. Het resultaat van deze meting wordt weergegeven in figuur \ref{}.
+
+
+
+
 
 
 
